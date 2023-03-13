@@ -33,11 +33,11 @@ After completing this lesson, you will be able to:
 - Command Line Interface
 
 ## 🟡 Lecture Presentations 
-- [Welcome](https://dc-houston.herokuapp.com/Welcome.html#1)
-- [Introduction to the Command LIne Interface - CLI](https://dc-houston.herokuapp.com/CommandLine/CLI.html#1)
-- [Navigating the File System](https://dc-houston.herokuapp.com/CommandLine/FileSystem.html#1)
-- [Git 101](https://dc-houston.herokuapp.com/Git/Git101.html#1)
-- [Github](https://dc-houston.herokuapp.com/Git/Github.html#1)
+- [Welcome](https://dc-web.onrender.com/Welcome.html#1)
+- [Introduction to the Command LIne Interface - CLI](https://dc-web.onrender.com/CommandLine/CLI.html#1)
+- [Navigating the File System](https://dc-web.onrender.com/CommandLine/FileSystem.html#1)
+- [Git 101](https://dc-web.onrender.com/Git/Git101.html#1)
+- [Github](https://dc-web.onrender.com/Git/Github.html#1)
 
 <!-- ## 🟣Labs 
 - [The Command Line](https://linuxjourney.com/lesson/the-shell) -->
