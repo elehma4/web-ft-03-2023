@@ -1,0 +1,18 @@
+.flash {
+1   animation: blinkingText 0.1s infinite;
+    }
+    @keyframes blinkingText{
+        0%{     color: green;    }
+        25%{    color: red; }
+        75%{    color: pink;  }
+        100%{    color: blue; }
+
+    }
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+.center {
+    text-align: center;
+    list-style-position: inside;
+}

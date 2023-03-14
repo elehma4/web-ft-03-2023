@@ -1,0 +1,17 @@
+.dark {
+    color: white; 
+    background-color: black; 
+    padding: 10px;
+}
+.light {
+    color: black; 
+    background-color: gray; 
+    padding: 10px;
+}
+#medium {
+    color: orange;
+    background-color: blanchedalmond;
+    padding: 10px;
+}
+
+/* div.dark will auto apply & div#medium will auto apply */
