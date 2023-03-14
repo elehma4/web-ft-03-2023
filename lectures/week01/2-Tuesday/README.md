@@ -22,9 +22,9 @@ After completing this lesson, you will be able to:
 ## 📍Agenda
 
 ## 🟡 Lecture Presentations
-- [Redirecting Input & Output](https://dc-houston.herokuapp.com/CommandLine/Redirecting.html#1)
-- [HTML](https://dc-houston.herokuapp.com/p2/HTMLCSS/HTML.html#1)
-- [CSS](https://dc-houston.herokuapp.com/p2/HTMLCSS/CSS.html#1)
+- [Redirecting Input & Output](https://dc-web.onrender.com/CommandLine/Redirecting.html#1)
+- [HTML](https://dc-web.onrender.com/p2/HTMLCSS/HTML.html#1)
+- [CSS](https://dc-web.onrender.com/p2/HTMLCSS/CSS.html#1)
 - [CSS Measurement Units](https://app.schoology.com/page/1643095901)
 
 <!-- ## 🟣Labs  
