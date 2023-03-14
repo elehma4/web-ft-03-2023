@@ -1,6 +1,6 @@
 # Week 1 - Tuesday
 
-## HTML, CSS, CSS Units of Measurement
+## HTML, CSS
 
 ## 📍Learning Objectives
 After completing this lesson, you will be able to:
@@ -27,15 +27,14 @@ After completing this lesson, you will be able to:
 - [CSS](https://dc-web.onrender.com/p2/HTMLCSS/CSS.html#1)
 <!-- - [CSS Measurement Units](https://app.schoology.com/page/1643095901) -->
 
-<!-- ## 🟣Labs  
-[lab](https://github.com/veros-labs/lab-fe-html-css)
--->
+## 🟣Labs  
+- [lab](https://github.com/veros-labs/lab-fe-html-css)
+- [lab for Lecture](https://github.com/DigitalCraftsStudents/html-lab-lecture-exercises)
+
 
 ## 🟠Homework
 
-- [HTML 101](https://digitalcrafts.instructure.com/courses/252/pages/html-101?module_item_id=23115)
-- [Create 90s Style Website](https://digitalcrafts.instructure.com/courses/252/assignments/4601?module_item_id=23134)
-[HTML CSS 101](./homework)
+- [homework](https://digitalcrafts.instructure.com/courses/252/pages/hw-css-101)
 
 ## 🔵Helpful Videos
 - [Learn HTML5 and CSS3 From Scratch - Full Course](https://www.youtube.com/watch?v=mU6anWqZJcc)
