@@ -1,4 +1,4 @@
-# Week 1 - Tuesday
+# Week 1 - Wednesday
 
 ## HTML, CSS
 

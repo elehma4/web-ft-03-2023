@@ -1,0 +1,17 @@
+.dark{
+    color: white; 
+    background-color: black;
+    padding: 10px;
+}
+
+.light{
+    color: black;
+    background-color: gray;
+    padding: 10px;
+}
+
+#medium {
+    color: tomato; 
+    background-color: blue;
+    padding: 10px;
+}
