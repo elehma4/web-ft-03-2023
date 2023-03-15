@@ -1,0 +1,37 @@
+
+body{
+    background-color: rgb(110, 109, 109);
+    margin: 0px;
+}
+
+.container{
+
+    color: rgb(232, 228, 228);
+    width: 500px;
+    line-height: 30px;
+    /* letter-spacing: 1px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+
+}
+
+h1{
+    color: rgb(223, 220, 220);
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+hr{
+    color: white;
+    border: solid 3px white;
+    margin:10px 60px 0px 60px;
+
+}
+
+em{
+    color: white; 
+    text-align: center;
+    display: block;
+
+}

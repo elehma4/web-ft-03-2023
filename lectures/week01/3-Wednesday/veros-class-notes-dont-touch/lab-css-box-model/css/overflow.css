@@ -1,0 +1,29 @@
+body{
+    margin:0px;
+    background-color: rgb(52, 50, 50);
+}
+
+
+.container{
+    width: 1050px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.col1{
+    width: 350px;
+    background-color: rgb(144, 142, 141);
+    height: 100vh;
+    float: left;
+    
+}
+
+.col2{
+    width: 350px;
+    background-color: rgb(241, 241, 236);
+    height: 100vh;
+    float:left;
+    color:rgb(52, 50, 50);
+}
+
+
+
