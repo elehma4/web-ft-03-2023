@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+}
+
+.header{
+    height: 300px;
+
+    background-color: yellow;
+
+    overflow: hidden;
+
+    position: relative;
+
+}
+
+.imgContainer{
+    position: absolute;
+    top: -130px;
+    left: -80px;
+    z-index: 10;
+
+}
+
+.text{
+    position: absolute;
+    z-index: 20;
+    color: white; 
+    font-size: 50px;
+    text-align: center;
+    line-height: 300px;
+    width: 100%;
+
+}
+
+.opacity{
+    height: 100%;
+    width: 100%; 
+
+    background-color: blue;
+    z-index: 15;
+    position: absolute;
+
+    opacity: 40%;
+
+}
+
