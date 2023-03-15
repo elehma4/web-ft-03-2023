@@ -1,0 +1,19 @@
+.column1 {
+    background-color: yellow;
+    right: 80%;
+}
+
+.column2 {
+    background-color: white;
+    left: 20%;
+    right: 20%;
+}
+
+.column3 {
+    background-color: purple;
+    left: 80%;
+}
+
+div {
+position: absolute;
+}
