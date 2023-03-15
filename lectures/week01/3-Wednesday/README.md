@@ -18,8 +18,8 @@ After completing this lesson, you will be able to:
 ## 📍Agenda
 
 ## 🟡 Lecture Presentations
-- [Box Model, Display, Centering](https://dc-web.onrender.com/p2/HTMLCSS/BoxModel.html#1)
-- [Positioning](https://dc-web.onrender.com/p2/HTMLCSS/Positioning.html#1)
+- [Box Model, Display, Centering](https://dc-web2.onrender.com/p2/HTMLCSS/BoxModel.html#1)
+- [Positioning](https://dc-web2.onrender.com/p2/HTMLCSS/Positioning.html#1)
 
 
 ## 🟣Labs 
