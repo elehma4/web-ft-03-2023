@@ -15,16 +15,16 @@ After completing this lesson, you will be able to:
 <!-- - [CSS Floats](https://learn.digitalcrafts.com/immersive/lessons/front-end-foundations/css-floats/) -->
 - [CSS Positioning](https://digitalcrafts.instructure.com/courses/252/pages/reading-css-position-property?module_item_id=23141)
 
-<!-- ## 📍Agenda -->
+## 📍Agenda
 
-<!-- ## 🟡 Lecture Presentations
+## 🟡 Lecture Presentations
 - [Box Model, Display, Centering](https://dc-web.onrender.com/p2/HTMLCSS/BoxModel.html#1)
-- [Positioning](https://dc-web.onrender.com/p2/HTMLCSS/Positioning.html#1) -->
+- [Positioning](https://dc-web.onrender.com/p2/HTMLCSS/Positioning.html#1)
 
 
-<!-- ## 🟣Labs 
+## 🟣Labs 
 
-[lab](https://github.com/veros-labs/lab-css-box-model) -->
+[lab](https://github.com/veros-labs/lab-css-box-model)
 
 <!-- ## 🟠Homework 
 
