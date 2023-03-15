@@ -6,3 +6,12 @@
 .playfair {
     font-family: 'Playfair Display', serif;
 }
+#container{
+    width: 300px;
+    background: white;
+}
+#floated{
+    float: center;
+    width: 1080px;
+    background: white;
+}
