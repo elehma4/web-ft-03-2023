@@ -1,0 +1,49 @@
+body {
+    margin: 0px;
+}
+div{
+    background-color: tomato;
+    color: white;
+
+    /* width: 30%; */
+    /* padding: 10px; */
+    /* margin: 20px; */
+
+}
+
+span{
+    background-color: purple;
+    color: white;
+
+
+    /* width: 300px;  */
+    /* height: 300px; */
+
+    /* padding: 10px; */
+    /* margin: 20px; */
+    
+    
+}
+
+a{
+    background-color: navy;
+    color: white;
+
+    /* width: 300px;  */
+    /* height: 300px; */
+
+    /* padding: 10px; */
+    /* margin: 20px; */
+    
+}
+
+p{
+    background-color: greenyellow;
+    color: green;
+
+}
+
+h1{
+    background-color: yellow;
+}
+
