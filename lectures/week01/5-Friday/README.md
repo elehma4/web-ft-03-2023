@@ -1,6 +1,6 @@
 # Week 1 - Friday
 
-## Bootstrap
+## Media Queries & Bootstrap
 
 ## 📍Learning Objectives
 After completing this lesson, you will be able to:
@@ -11,8 +11,8 @@ After completing this lesson, you will be able to:
 - Describe how to use the  Bootstrap Grid System
 
 ## ⭐️ Pre-Reading ⭐️
-- [Media Queries](https://digitalcrafts.instructure.com/courses/189/pages/reading-media-queries?module_item_id=23160)
-- [Bootstrap](https://digitalcrafts.instructure.com/courses/189/pages/reading-bootstrap?module_item_id=23178)]
+- [Media Queries](https://digitalcrafts.instructure.com/courses/252/pages/reading-media-queries?module_item_id=23160)
+- [Bootstrap](https://digitalcrafts.instructure.com/courses/252/pages/reading-bootstrap?module_item_id=23178)
 
 <!-- ## 📍Agenda
 
