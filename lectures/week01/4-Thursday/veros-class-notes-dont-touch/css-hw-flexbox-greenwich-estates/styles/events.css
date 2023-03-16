@@ -1,0 +1,34 @@
+.events {
+  padding: 4rem 0;
+}
+
+.events-cards {
+  margin: 4rem 0; 
+}
+
+.event-card {
+  width: 300px;
+  max-width: 100%;
+  margin: 0 1rem 2rem 1rem;
+}
+
+.card-title {
+  font-size: 1.8rem;
+  margin: 0;
+  text-align: center;
+}
+
+.card-divider {
+  height: 10px;
+}
+
+.card-body {}
+
+.event-price {
+  text-align: center;
+  font-family: var(--font-serif);
+  font-size: 2.5rem;
+  margin: 0.4em 0;
+}
+
+.card-footer {}

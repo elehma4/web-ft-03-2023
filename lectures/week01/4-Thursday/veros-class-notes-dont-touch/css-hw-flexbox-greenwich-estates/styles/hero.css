@@ -1,0 +1,44 @@
+.hero {
+  background-size: cover;
+  background-position: 10% 50%;
+  background-attachment: fixed;
+}
+
+.hero.hero-1 {
+  background-image: url('../images/bg-hero-1.jpg');
+}
+
+.hero.hero-2 {
+  background-image: url('../images/bg-hero-2.jpg');
+}
+
+.hero.hero-3 {
+  background-image: url('../images/bg-hero-3.jpg');
+}
+
+.hero-content {
+  display: flex;
+  padding: 100px 0;
+}
+
+.hero-content.right {
+  flex-direction: row-reverse;
+}
+
+.hero-title {
+  color: white;
+  font-size: 2rem;
+  text-shadow: 0 0 5px var(--black-olive);
+}
+
+.hero-card {
+  width: 300px;
+  padding: 2rem;
+  background-color: var(--black-olive);
+  color: var(--linen);
+  box-shadow: 0 5px 20px rgb(0 0 0 / 50%);
+}
+
+.hero-card p {
+  margin: 0 0 1.4em 0;
+}

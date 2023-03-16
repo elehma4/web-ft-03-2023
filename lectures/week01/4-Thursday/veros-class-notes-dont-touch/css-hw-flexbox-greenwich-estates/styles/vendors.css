@@ -1,0 +1,13 @@
+.vendors {
+  margin: 4rem;
+}
+
+.vendor-list {
+  margin: 2em 0;
+}
+
+.vendor-list img {
+  box-sizing: border-box;
+  width: 130px;
+  padding: 10px;
+}
