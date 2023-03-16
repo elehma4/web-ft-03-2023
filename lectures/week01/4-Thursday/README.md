@@ -28,8 +28,9 @@ After completing this lesson, you will be able to:
 - [lab for lecture](https://github.com/veros-labs/flexbox-labs-lecture)
 - [pair programming](https://github.com/veros-labs/fe-flexbox-card-layout)
 
-<!-- ## 🟠Homework 
-- [flexbox layouts](https://digitalcrafts.instructure.com/courses/212/assignments/7358?module_item_id=39247) -->
+## 🟠Homework 
+- [layout practice](https://github.com/DigitalCraftsStudents/css-hw-flexbox-layout)
+- [West Greenwich Estates](https://github.com/DigitalCraftsStudents/css-hw-flexbox-greenwich-estates)
 
 ## 🔵Helpful Videos
 - [CSS Flexbox Tutorial for Beginners | Basics & Container ](https://www.youtube.com/watch?v=siKKg8Y_tQY)
