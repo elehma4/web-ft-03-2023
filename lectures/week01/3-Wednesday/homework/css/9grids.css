@@ -1,0 +1,51 @@
+div {
+    position: absolute;
+    width: calc(100% / 3);
+    height: calc(100% / 3);
+}
+
+.pos1 {
+    background-color: red;
+    
+   
+}
+.pos2 {
+    background-color: blue;
+    left: calc(100% / 3);
+}
+.pos3 {
+    background-color: green;
+    left: calc(200% / 3);
+}
+.pos4 {
+    background-color: yellow;
+    
+    top: calc(100% / 3);
+}
+.pos5 {
+    background-color: purple;
+    left: calc(100% / 3);
+    top: calc(100% / 3);
+}
+.pos6 {
+    background-color: orange;
+    left: calc(200% / 3);
+    top: calc(100% / 3);
+}
+.pos7 {
+    background-color: aqua;
+    top: calc(200% / 3);
+}
+.pos8 {
+    background-color: white;
+    color: black;
+    left: calc(100% / 3);
+    top: calc(200% / 3);
+}
+.pos9 {
+    background-color: black;
+    color: white;
+    left: calc(200% / 3);
+    top: calc(200% / 3);
+}
+

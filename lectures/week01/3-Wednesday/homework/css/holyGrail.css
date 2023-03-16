@@ -1,0 +1,34 @@
+.header {
+    height=calc(100% / 10);
+    background-color: aqua;
+    bottom: 90%;
+}
+.footer {
+    height=calc(100% / 10);
+    top: 90%;
+    bottom: 0;
+    background-color: pink;
+}
+
+.column1 {
+    background-color: yellow;
+    right: 80%;
+    top: 10%;
+}
+
+.column2 {
+    background-color: white;
+    left: 20%;
+    right: 20%;
+    top: 10%;
+}
+
+.column3 {
+    background-color: purple;
+    left: 80%;
+    top: 10%;
+}
+
+div {
+position: absolute;
+}
