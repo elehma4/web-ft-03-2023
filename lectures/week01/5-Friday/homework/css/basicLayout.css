@@ -1,0 +1,49 @@
+body{
+    box-sizing: border-box;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.vh{
+    height: 100vh;
+}
+
+.main1{
+    height: 24vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main2{
+    height: 31vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main3{
+    height: 30vh;
+}
+
+.header{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    height: 5vh;
+    text-align: center;
+}
+boldness{
+    container: fluid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* hr{
+    margin:2px 2px 0px 2px;
+    background-color: black;
+    outline: black;
+} */
