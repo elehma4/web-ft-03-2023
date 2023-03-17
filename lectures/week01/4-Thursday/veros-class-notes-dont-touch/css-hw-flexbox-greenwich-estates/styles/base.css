@@ -1,0 +1,56 @@
+:root {
+  --black-olive: rgb(61 61 45);
+  --yellow-orange: rgb(255, 172, 71);
+  --linen: rgb(255 246 235);
+  --font-serif: 'Prata', serif;
+  --font-sans: 'Poppins', sans-serif;
+}
+
+html > * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--linen);
+  color: var(--black-olive);
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+.container {
+  max-width: 1200px;
+  width: calc(100% - 40px);
+  margin: 0 auto;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.7em 1em;
+  background-color: var(--yellow-orange);
+  color: var(--black-olive);
+  text-decoration: none;
+  transition: box-shadow 150ms ease;
+}
+
+.button:hover {
+  box-shadow: 0 0 5px var(--yellow-orange);
+}
+
+.section-header {
+  text-align: center;
+}
+
+.section-intro {
+  text-align: center;
+  width: 620px;
+  max-width: 100%;
+  margin: 0 auto;
+}

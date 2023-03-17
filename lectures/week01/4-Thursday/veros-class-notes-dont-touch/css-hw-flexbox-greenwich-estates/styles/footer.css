@@ -1,0 +1,30 @@
+.page-footer {
+  background-color: var(--black-olive);
+  padding: 4rem 0 2rem;
+  font-size: 0.8rem;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.footer-logo {
+  filter: invert();
+  width: 300px;
+  margin-bottom: 2rem;
+}
+
+.page-footer a {
+  text-decoration: none;
+  color: rgb(255 255 255 / 70%);
+  display: inline-block;
+  margin: 0 0.5em;
+}
+
+.footer-links {
+  margin-bottom: 4rem;
+}
+
+.footer-copyright {
+  color: rgb(255 255 255 / 40%)
+}
