@@ -14,11 +14,11 @@ After completing this lesson, you will be able to:
 - [Media Queries](https://digitalcrafts.instructure.com/courses/252/pages/reading-media-queries?module_item_id=23160)
 - [Bootstrap](https://digitalcrafts.instructure.com/courses/252/pages/reading-bootstrap?module_item_id=23178)
 
-<!-- ## 📍Agenda
+## 📍Agenda
 
 ## 🟡 Lecture Presentations
-- [Bootstrap](https://dc-houston.herokuapp.com/p2/HTMLCSS/Bootstrap.html#1)
-- [Responsive Design](https://dc-houston.herokuapp.com/p2/HTMLCSS/ResponsiveDesign.html#1) -->
+- [Bootstrap](https://dc-web-slides.netlify.app/htmlcss/bootstrap#1)
+- [Responsive Design](https://dc-web2.onrender.com//p2/HTMLCSS/ResponsiveDesign.html#1)
 
 <!-- ## 🟣Labs  -->
 
