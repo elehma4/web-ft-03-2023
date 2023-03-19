@@ -24,7 +24,22 @@ h1{
 }
 .main3{
     height: 30vh;
+    display: flex;
+    
+
 }
+img{
+    height: 150px;
+    width: 150px;
+}
+.image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
 
 .header{
     height: 10vh;
@@ -36,11 +51,13 @@ h1{
     height: 5vh;
     text-align: center;
 }
-boldness{
-    container: fluid;
-    display: flex;
+.boldness{
     justify-content: space-around;
     align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: center;
 }
 /* hr{
     margin:2px 2px 0px 2px;
