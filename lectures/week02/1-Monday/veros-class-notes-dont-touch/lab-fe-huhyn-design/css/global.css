@@ -41,10 +41,38 @@ white = #FFFFFF */
     color: #FCA311;
 }
 
+.text-accent a{
+    color: #FCA311;
+}
+
+.text-accent a:hover{
+    color: #E5E5E5;
+}
+
 .text-lightGray{
     color: #E5E5E5;
 }
 
 .text-white{
     color: #FFFFFF;
+}
+
+
+/* Page Sections */
+
+.ps-light{
+    background-color: white;
+
+    /* height: 550px; */
+
+    width: 100%;
+}
+
+.ps-gray{
+
+    background-color: #E5E5E5;
+
+    /* height: 550px; */
+
+    width: 100%;
 }
