@@ -1,4 +1,4 @@
-# Week 3 - Friday
+# Week 2 - Monday
 
 ## Bootstrap Deep Dive
 
