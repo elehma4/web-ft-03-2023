@@ -23,9 +23,27 @@
                 <img src="images/noodles.jpg" alt="">
             </div>
 
-            <div id="videoLayer"></div>
+            <div id="videoLayer" class="ratio ratio-16x9 position-absolute z15 d-none d-md-block">
+                <iframe width="100%"  src="https://www.youtube.com/embed/hz70ucYZyy4?autoplay=1&mute=1&start=162&end=172&loop=1&playlist=hz70ucYZyy4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
 
-            <div id="textLayer"></div>
+            <div id="textLayer" class="position-absolute h-100 w-100 text-accent z25 d-flex 
+            flex-column justify-content-center align-items-center">
+
+                <div class="display-1">
+                    Huhyn Restaurant
+                </div>
+
+                <div class="text-white h3">
+                    Vietnamese Cuisine
+                </div>
+
+                <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Order Online
+                </button>
+
+            
+            </div>
 
         </header>
 
@@ -34,7 +52,35 @@
         <main></main>
         
         <footer></footer>
+
     </div>
+    <!-- end of container-fluid -->
+
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            Maybe this is my menu
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-warning">Save changes</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
     
 </body>
 </html>
+
