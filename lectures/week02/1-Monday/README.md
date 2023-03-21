@@ -25,7 +25,7 @@ After completing this lesson, you will be able to:
 
 ## 🟠Homework 
 
-[Build a restaurant site site](https://digitalcrafts.instructure.com/courses/189/assignments/4683?module_item_id=23187)
+[Build a restaurant site site](https://github.com/DigitalCraftsStudents/css-hw-bootstrap-restaurant-page)
 
 <!-- ## 🔵Helpful Videos
 
