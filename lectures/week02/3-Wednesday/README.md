@@ -29,7 +29,7 @@ After completing this lesson, you will be able to:
 ## 🟠Homework
 - [Homework](https://github.com/veros-labs/hw-js101-dataTypes)
 <!-- - [JS Exercises](https://digitalcrafts.instructure.com/courses/189/assignments/4637?module_item_id=23210) -->
-<!-- - [JS 101](https://digitalcrafts.instructure.com/courses/189/pages/javascript-101?module_item_id=23207) --> -->
+<!-- - [JS 101](https://digitalcrafts.instructure.com/courses/189/pages/javascript-101?module_item_id=23207) -->
 
 ## 🔵Helpful Videos
 - [JavaScript Tutorial for Beginners: Learn JavaScript in 1 Hour](https://www.youtube.com/watch?v=W6NZfCO5SIk)
