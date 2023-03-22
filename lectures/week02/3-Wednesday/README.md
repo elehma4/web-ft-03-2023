@@ -18,16 +18,18 @@ After completing this lesson, you will be able to:
 
 <!-- ## 📍Agenda -->
 
-<!-- ## 🟡 Lecture Presentations
-- [Javascript 101](http://dc-houston.herokuapp.com/p2/Javascript/Javascript101.html#1) -->
+## 🟡 Lecture Presentations
+- [Javascript 101](https://docs.google.com/presentation/d/e/2PACX-1vTByvVpTTsVy_srKJ7uE5QLROsRfHoEtIKf-gT0R7A7O8I1kmpBcbxxy-08PP4ukXYj38iyIUd3R5kg/embed?slide=id.g1ea5c6ce85_0_71)
 
-<!-- ## 🟣Labs  -->
+## 🟣Labs 
+<!-- - [js 101 lab](https://github.com/veros-labs/lab-js-101) -->
 <!-- - [js 101 lab](https://github.com/veros-labs/lab-js-101) -->
 <!-- - [JS lab](https://github.com/DigitalCraftsStudents/js-101-exercises) -->
 
-<!-- ## 🟠Homework 
-- [JS Exercises](https://digitalcrafts.instructure.com/courses/189/assignments/4637?module_item_id=23210)
-- [JS 101](https://digitalcrafts.instructure.com/courses/189/pages/javascript-101?module_item_id=23207) -->
+## 🟠Homework
+<!-- - [Homework]() -->
+<!-- - [JS Exercises](https://digitalcrafts.instructure.com/courses/189/assignments/4637?module_item_id=23210) -->
+<!-- - [JS 101](https://digitalcrafts.instructure.com/courses/189/pages/javascript-101?module_item_id=23207) --> -->
 
 ## 🔵Helpful Videos
 - [JavaScript Tutorial for Beginners: Learn JavaScript in 1 Hour](https://www.youtube.com/watch?v=W6NZfCO5SIk)
