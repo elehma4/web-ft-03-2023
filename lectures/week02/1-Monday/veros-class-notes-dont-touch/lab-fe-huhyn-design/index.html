@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+
+    <div class="container-fluid p-0">
+
+        <header class="position-relative">
+
+            <div id="opacity" class="bg-black h-100 w-100 position-absolute top-0 start-0 z20 opacity-50"></div>
+
+            <div id="imageLayer" class="position-absolute top-0 start-0 d-md-none d-lg-none d-xl-none z10">
+                <img src="images/noodles.jpg" alt="">
+            </div>
+
+            <div id="videoLayer" class="ratio ratio-16x9 position-absolute z15 d-none d-md-block">
+                <iframe width="100%"  src="https://www.youtube.com/embed/hz70ucYZyy4?autoplay=1&mute=1&start=162&end=172&loop=1&playlist=hz70ucYZyy4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+
+            <div id="textLayer" class="position-absolute h-100 w-100 text-accent z25 d-flex 
+            flex-column justify-content-center align-items-center">
+
+                <div class="display-1">
+                    Huhyn Restaurant
+                </div>
+
+                <div class="text-white h3">
+                    Vietnamese Cuisine
+                </div>
+
+                <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Order Online
+                </button>
+
+            
+            </div>
+
+        </header>
+
+        <nav class="navbar navbar-expand-lg text-accent bg-black">
+            <div class="container-fluid">
+
+              <a class="navbar-brand" href="#">Huhyn</a>
+              
+              <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">Disabled</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        
+        <main>
+
+
+          
+
+            <div class="ps-light row p-5">
+
+               <div class="col-md-6 col-sm-12 d-flex justify-content-center align-items-center">
+
+                    <!-- imgage -->
+                    <img src="images/salad.jpg" width="90%" alt="">
+               </div>
+               <!-- end of image -->
+
+
+               <div class="col-md-6 col-sm-12 d-flex flex-column justify-content-center align-items-center">
+                   <!-- text -->
+
+                   <div class="display-3">Our Philosophy</div>
+
+                    <div class="lead">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta blanditiis saepe sint temporibus omnis impedit quos, voluptatem ab, tempora a aliquid voluptas dolores consequatur dignissimos eum aliquam voluptates nulla labore?
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta blanditiis saepe sint temporibus omnis impedit quos, voluptatem ab, tempora a aliquid voluptas dolores consequatur dignissimos eum aliquam voluptates nulla labore?
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta blanditiis saepe sint temporibus omnis impedit quos, voluptatem ab, tempora a aliquid voluptas dolores consequatur dignissimos eum aliquam voluptates nulla labore?
+                    </div>
+               </div>
+               <!-- end of philosophy -->
+
+            </div>
+
+            <!-- end of ps-light -->
+
+            <div class="parallax"></div>
+
+            <div class="ps-gray p-5">
+
+                <div class="display-2 text-center">
+                    Houston Chronicle Review
+                </div>
+
+                
+
+                <div class="lead mt-5">
+                    <p class="my-5">But one cool, collected bite into this banh uot thit nuong, as the rolls are called in
+                        Vietnamese, and I allowed an unaccustomed thought to form: Maybe Huynh was
+                        the Houston Vietnamese restaurant I had been waiting for all these years.
+                        A few more bites and I was sure of it.
+                        The delicate satin of the noodle wrapper, the subtle crustiness of the savorysweet grilled pork, the crunch and spring of frilled leaf lettuce, the zing of fresh
+                        mint and cilantro all conspired to astonish. “This is one of the best things I’ve
+                        eaten in ages,” I murmured to my lunch companion. “It’s perfect.” <a class="text-accent" href="http://huynhrestauranthouston.com/uploads/2822/Huynh_Authentic_Vietnamese_Cuisine.pdf" target="_blank">Continue Reading</a> </p>
+                        <footer class="blockquote-footer">
+                            <cite title="Source Title">Houston Chronicle</cite>
+                        </footer>
+                </div>
+
+            </div>
+
+            <div class="ps-light row">
+
+                <div class="col-12 p-0 m-0">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3463.8980912765096!2d-95.3556435!3d29.751662399999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640bf21c74fe229%3A0xe0947c6534b1d08a!2s912%20St%20Emanuel%20St%2C%20Houston%2C%20TX%2077003!5e0!3m2!1sen!2sus!4v1679344794226!5m2!1sen!2sus" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+            </div>
+
+           
+
+        </main>
+        
+        <footer class="bg-black w-100">
+           
+            <div class="row p-5">
+
+                <div class="col-6  d-flex flex-column justify-content-center align-items-center">
+
+                    <div class="text-accent display-6">Dummy Text</div>
+
+                    <div class="text-white mt-2">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero est fugit perspiciatis quam itaque dolorem nihil necessitatibus voluptates cum vitae voluptatum nesciunt perferendis nobis, animi cupiditate dolores odio omnis? Labore.
+                        Voluptas ullam voluptates fugit ab culpa dicta nesciunt dolorum corrupti, nemo fuga deleniti vel ducimus sint totam quo magni veritatis hic quidem repellendus facilis. Distinctio tempora nulla reiciendis cum exercitationem.
+                    </div>
+                </div>
+
+
+
+                <div class="col-6">
+
+                    <div class="text-lightGray h2"> Hours of Operation</div>
+
+                    <div class="text-white">
+                        <ul>
+                            <li>Mon: 9-5</li>
+                            <li>Tue: 9-5</li>
+                            <li>Wed: 9-5</li>
+                            <li>Thu: 9-5</li>
+                            <li>Fri: 9-5</li>
+                            <li>Sat: 9-5</li>
+                            <li>Sun: 9-5</li>
+                            
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- end of container-fluid -->
+
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            Maybe this is my menu
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-warning">Save changes</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
+
