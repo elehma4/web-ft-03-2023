@@ -1,0 +1,21 @@
+Short Answer Questions:
+
+1. String interpolation in Javascript alows you to insert Javascript functionality into a string.
+
+2. `${thisIsStringInterpolation}`
+
+3. Concatenation is the conjoining of two or more strings whereas interpolation is a single string but inserts JS functionality into the string.
+
+4. Yes, you can insert a variable or multiple variables in string interpolation.
+
+5. Yes, you can use expressions in string interpolation.
+
+6. The difference between the two is that with double quotes you can utilize escape sequences. If you used '' but had to use a singular ' inside of it it'd close the string incorrectly. Same vise versa. 
+
+7. Yes, you can use template literals with string interpolation.
+
+8. You can use \ to counter the problem talked about in problem 6. It allows the use of double quotes in a double quote string and same with single quotes. \n creates a new line. \t tabs the content in
+
+9. JavaScript, as of the ECMAScript 2015 (ES6) standard, supports string interpolation. So, versions prior do not support string interpolation.
+
+10. You can use it to execute functions and methods alongside strings. Producing different outputs depending on the specific function or method.
