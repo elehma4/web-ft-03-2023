@@ -1,3 +1,3 @@
 
-console.log("External: Hello world!");
+console.log("Hello world!");
 
