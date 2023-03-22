@@ -1,3 +1,14 @@
+const prompt = require('prompt-sync')({sigint: true}); //need this for setup
+
+let firstName2 = prompt("What is your name >> ")
+
+console.log(firstName2);
+
+let bikeAge = prompt("How old were you when you learned to ride a bike? ")
+
+bikeAge = Number(bikeAge)
+console.log(typeof(bikeAge));
+
 
 // const widthOfSquare = 10;   // Camel Case  lowerCase  upperCase camelCase
 
@@ -107,7 +118,7 @@ let lastName = "Lino"
 
 let myName = firstName + lastName;  //Veronica Lino
 
-console.log(myName)
+// console.log(myName)
 
 
 let a = 3 
@@ -115,37 +126,106 @@ let b = "3"
 
 let sum = a + b;  "33"
 
-console.log(sum);
+// console.log(sum);
 
 
 //? Casting converting one dataType to anohter dataType 
 //* string => number => string   boolean
 
-let c = parseInt(b) // 3 
+// let c = parseInt(b) // 3 
 
-let sum2 = a + c // 6
+// let sum2 = a + c // 6
 
-console.log(sum2)
+// console.log(sum2)
 
+// let b_num = Number(b) //casting from string to an integer 
 
+// console.log(b_num)
+
+// console.log(typeof(b_num))
+
+// let b_num2 = Number("a") //error NaN
+
+// console.log(b_num2)
+
+// //? Casting from integer to string 
+
+// let some_int = 5; 
+
+// let some_int_string = some_int.toString()
+
+// console.log(some_int_string)
+// console.log(typeof(some_int_string))
+
+// caste
 // typeof(c)
 
-console.log(typeof(b))
-
-
+// console.log(typeof(b))
 
 
 //console.log(string1, string2)
 
 
-// string with multiple lines 
+//? Math with JS 
+
+// let x = 10 
+// let y = 3 
 
 
- 
+// // console.log(3+4);
+// console.log(x + y); //addition
 
-// String Concatentation 
+// console.log(x / y); //division
 
-// String Interpolation
+// console.log(x - y); //subtraction
+
+// console.log(x * y); // multiplication
+
+// let total = x * (9 + 5) / y; // 3 * 14 / 44
+
+// console.log(total);
+
+
+// let modulus = x % y 
+
+// console.log(modulus);
+
+let x = -89; 
+
+let result = Math.abs(x); 
+
+// console.log(result);
+
+let e = 2.72 
+
+result = Math.round(e)
+
+result = Math.floor(e)
+
+// console.log(result);
+
+
+result = Math.pow(2, 5)
+
+// console.log(result);
+
+
+// let thisIsAGreatDay 
+
+// this_is_a_great_day
+
+// true  1 
+// false 0
+
+// result = true + true 
+
+// console.log(result);
+
+
+// let ifValid = true; 
+
+// console.log(typeof(ifValid));
+
 
 
 
