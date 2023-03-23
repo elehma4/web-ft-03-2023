@@ -16,23 +16,17 @@ After completing this lesson, you will be able to:
 
 
 
-<!-- ## 🟡 Lecture Presentations
-- [Redirecting Input & Output](https://dc-houston.herokuapp.com/CommandLine/Redirecting.html#1)
-- [Python 101](https://dc-exxon-slides.netlify.app/python/python101#1)
-- [The debug process](https://docs.google.com/document/d/1Hb3IZVcnrZQ6FXNgiqUBbqrEkRv-k1O_TFffqj3KoVs/edit) -->
+## 🟡 Lecture Presentations
+- [JS Conditionals](https://dc-web-slides.netlify.app/javascript/conditionals#1)
+- [The debug process](https://docs.google.com/document/d/1Hb3IZVcnrZQ6FXNgiqUBbqrEkRv-k1O_TFffqj3KoVs/edit)
 
-<!-- ## 🟣Labs  -->
-<!-- - [advanced cli](https://github.com/veros-labs/cli-lab-advanced) -->
-<!-- - [python101](https://github.com/veros-labs/lab-python-101) -->
+## 🟣Labs 
+- [js conditionals lab](https://github.com/DigitalCraftsStudents/js-lab-conditionals)
 
 
- <!-- ## 🔶 Practice Problems
- - [Problems for additional practice](https://github.com/veros-labs/practice-python-101) -->
+## 🟠Homework 
 
-
-<!-- ## 🟠Homework 
-Medium problems in homework folder
-- [homework](./homework/) -->
+- [homework](https://github.com/DigitalCraftsStudents/js-hw-conditionals)
 
 
 ## 🔵 Helpful Videos
