@@ -12,8 +12,7 @@ After completing this lesson, you will be able to:
 
 
 ## ⭐️ Pre-Reading ⭐️
-- [Python 101](https://digitalcrafts.instructure.com/courses/252/pages/reading-making-decisions-with-conditionals)
-
+- [JS Conditionals](https://digitalcrafts.instructure.com/courses/252/pages/reading-making-decisions-with-conditionals)
 
 
 ## 🟡 Lecture Presentations
