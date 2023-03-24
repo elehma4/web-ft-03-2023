@@ -16,7 +16,7 @@ After completing this lesson, you will be able to:
 
 
 ## 🟡 Lecture Presentations
-- [JS Loops](https://dc-web2.onrender.com/javascript/loops#1)
+- [JS Loops](https://dc-web2.onrender.com/p2/Javascript/Loops.html#1)
 
 
 ## 🟣Labs 
