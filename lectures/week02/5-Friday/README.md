@@ -20,7 +20,7 @@ After completing this lesson, you will be able to:
 
 
 ## 🟣Labs 
-- [js conditionals lab](https://github.com/DigitalCraftsStudents/js-lab-loops)
+- [js loops lab](https://github.com/DigitalCraftsStudents/js-lab-loops)
 
 
 ## 🟠Homework 
