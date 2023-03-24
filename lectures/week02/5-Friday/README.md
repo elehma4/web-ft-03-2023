@@ -15,17 +15,17 @@ After completing this lesson, you will be able to:
 
 
 
-<!-- ## 🟡 Lecture Presentations
-- [JS Conditionals](https://dc-web-slides.netlify.app/javascript/conditionals#1)
-- [The debug process](https://docs.google.com/document/d/1Hb3IZVcnrZQ6FXNgiqUBbqrEkRv-k1O_TFffqj3KoVs/edit) -->
-
-<!-- ## 🟣Labs 
-- [js conditionals lab](https://github.com/DigitalCraftsStudents/js-lab-conditionals) -->
+## 🟡 Lecture Presentations
+- [JS Loops](https://dc-web2.onrender.com/p2/Javascript/Loops.html#1)
 
 
-<!-- ## 🟠Homework 
+## 🟣Labs 
+- [js loops lab](https://github.com/DigitalCraftsStudents/js-lab-loops)
 
-- [homework](https://github.com/DigitalCraftsStudents/js-hw-conditionals) -->
+
+## 🟠Homework 
+
+- [homework](https://github.com/DigitalCraftsStudents/js-hw-loops)
 
 
 ## 🔵 Helpful Videos
