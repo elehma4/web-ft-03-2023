@@ -31,13 +31,19 @@ console.log(todos);
 
 let menuChoice = 0;
 let quit = 4;
+let userInput = "";
 
 while (menuChoice != quit){  //4 != 4
 
     //print a list of todolist items
     // 1. feed puppy
 
-    menuChoice = Number(prompt(`Select a menu item
+    for(let index = 0; index < todos.length; index++){
+        
+        console.log(`${index + 1}. ${todos[index]}`);
+    }
+
+    menuChoice = Number(prompt(`***** Select a menu item *****
 1. Add a todo list item 
 2. Update a todo list item  
 3. Remove a todo list item
@@ -47,6 +53,10 @@ while (menuChoice != quit){  //4 != 4
 
     switch(menuChoice){
         case 1:  //adding an item 
+            //prompt the user to enter a todolist item
+            userInput = prompt("Enter a todolist item >> ")
+
+            todos.push(userInput);
             break;
         case 2: //update 
             break; 
