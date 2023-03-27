@@ -4,8 +4,9 @@ const prompt = require('prompt-sync')({sigint: true});
 
 let todos = ["feed puppy"]  //how to store our information from our user 
 
-
-console.log(todos);
+//  todos[0] = "feed cat"
+// 1. feed puppy
+// console.log(todos);
 /**
  * 
  * 1 list 1 0
@@ -32,11 +33,15 @@ console.log(todos);
 let menuChoice = 0;
 let quit = 4;
 let userInput = "";
+let itemChoice = 0;
+let arrIndex = 0;
 
 while (menuChoice != quit){  //4 != 4
 
     //print a list of todolist items
     // 1. feed puppy
+    // 2. Check mail
+
 
     for(let index = 0; index < todos.length; index++){
         
@@ -59,6 +64,14 @@ while (menuChoice != quit){  //4 != 4
             todos.push(userInput);
             break;
         case 2: //update 
+            // ask which item to update
+            itemChoice = Number(prompt("Which item would you like to update? >> "))
+            // index = choice - 1
+            arrIndex = itemChoice - 1;
+            // prompt user for input 
+            userInput = prompt("Enter updated todolist Item >> ")
+            // update item in todolist with new user info 
+            todos[arrIndex] = userInput;
             break; 
 
         case 3: // remove 
