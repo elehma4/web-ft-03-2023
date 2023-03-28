@@ -42,19 +42,25 @@ while (menuChoice != quit){  //4 != 4
     // 1. feed puppy
     // 2. Check mail
 
+    console.log(`--------------------------`);
 
     for(let index = 0; index < todos.length; index++){
         
         console.log(`${index + 1}. ${todos[index]}`);
     }
 
-    menuChoice = Number(prompt(`***** Select a menu item *****
-1. Add a todo list item 
-2. Update a todo list item  
-3. Remove a todo list item
-4. Quit
+    console.log(`--------------------------`);
+
+    console.log(`***** Select a menu item *****
+    1. Add a todo list item 
+    2. Update a todo list item  
+    3. Remove a todo list item
+    4. Quit
     
-`))
+`)
+
+    menuChoice = Number(prompt(`>>  #. `))
+
 
     switch(menuChoice){
         case 1:  //adding an item 
@@ -73,8 +79,17 @@ while (menuChoice != quit){  //4 != 4
             // update item in todolist with new user info 
             todos[arrIndex] = userInput;
             break; 
+            
+            case 3: // remove 
+            
+            // ask user which item to remove
+            itemChoice = Number(prompt("Which item would you like to remove? >> "))
+            
+            // arrIndex = itemChoice - 1 
+            arrIndex = itemChoice - 1
+            // splice method to remove that item
 
-        case 3: // remove 
+            todos.splice(arrIndex, 1)
             break;
         
         default:
