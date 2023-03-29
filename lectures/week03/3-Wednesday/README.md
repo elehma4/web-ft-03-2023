@@ -24,7 +24,8 @@ After completing this lesson, you will be able to:
 
 
 ## 🟠Homework
-- [Homework](https://github.com/veros-labs/lab-js-functions2)
+- [Homework](https://github.com/veros-labs/js-hw-functions2
+)
 
 
 <!-- ## ✔️Todo Checklist
