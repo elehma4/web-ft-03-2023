@@ -20,10 +20,12 @@ After completing this lesson, you will be able to:
 
 ## 🟣Labs 
 - [js 101 lab](https://github.com/veros-labs/lab-js-functions2)
+- [js ](https://github.com/DigitalCraftsStudents/js-lab-101-exercises)
 
 
 ## 🟠Homework
-- [Homework]()
+- [Homework](https://github.com/veros-labs/js-hw-functions2
+)
 
 
 <!-- ## ✔️Todo Checklist
