@@ -1,6 +1,6 @@
 # Week 3 - Wednesday
 
-## functions
+## Functions
 
 ## 📍Learning Objectives
 After completing this lesson, you will be able to:
