@@ -75,7 +75,7 @@ let noDupNums = [sortedNums[0]] // [1, 2, 3, 4, 5, 6]
 
 // console.log(noDupNums)
 
-let codedString = "albh zhfg hayrnea jung lbh unir yrnearq"; 
+let codedString = "lbh zhfg hayrnea jung lbh unir yrnearq"; 
 
 let decodedString = ""
 
@@ -97,7 +97,6 @@ let decodedString = ""
 console.log(" ".charCodeAt(0))
 
 for(let i = 0; i < codedString.length; i++){
-
 
     if(codedString.charCodeAt(i) + 13 < 96){ 
         // "albh zhfg hayrnea jung lbh unir yrnearq". charCodeAt(0)  97 - 96 = 1
