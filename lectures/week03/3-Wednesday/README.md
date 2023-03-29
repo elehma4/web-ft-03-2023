@@ -19,7 +19,7 @@ After completing this lesson, you will be able to:
 - [Functions](https://dc-web2.onrender.com/p2/Javascript/Functions2.html#1)
 
 ## 🟣Labs 
-- [js 101 lab]()
+- [js 101 lab](https://github.com/veros-labs/lab-js-functions2)
 
 
 ## 🟠Homework
