@@ -1,0 +1,2 @@
+
+let covidData = require('./data');
