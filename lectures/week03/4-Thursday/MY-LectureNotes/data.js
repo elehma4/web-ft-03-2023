@@ -945,3 +945,6 @@ let data =  [
       population: 0
     }
 ]
+
+
+module.exports = data;
