@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        // function addUpTo(n) {
+        //     let total = 0;
+        //     for (let i = 1; i<=n; i++){
+        //         total += i;
+        //     }
+        //     return total
+        // }
+
+        function addUpTo(n){
+            return n * (n + 1) / 2
+        }
+
+        //Checkpoint 1 (start the timer)
+        let t1 = performance.now();
+
+        //call the function
+        addUpTo(1000000000);
+
+
+        //Checkpoint 2 (stop the timer)
+        let t2 = performance.now(); 
+
+
+        //Calculate the time difference
+        console.log(`Time Elapsed: ${(t2 - t1) / 1000} seconds.`) //difference between the 2 times
+
+
+       
+
+        for(let i = 0; i< 10; i++){  // n^2
+
+            for (let j=0 ; j < 10; j++){
+
+                for(let k = 0; k< 10; k++){
+
+                }
+            }
+            
+        }
+
+
+    </script>
+</body>
+</html>
