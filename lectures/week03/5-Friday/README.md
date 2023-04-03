@@ -20,12 +20,12 @@ After completing this lesson, you will be able to:
 - [Objects](https://dc-web2.onrender.com/p2/Javascript/ObjectOrientedProgramming.html#1)
 
 ## 🟣Labs 
-- [oop](https://github.com/DigitalCraftsStudents/js-lab-oop)
+- [arrow functions](https://github.com/veros-labs/js-convert-2-arrow-functions)
 
 
 
 ## 🟠Homework
-- [homework](https://github.com/DigitalCraftsStudents/js-hw-oop)
+- [rpg](https://github.com/DigitalCraftsStudents/js-hw-oop-rpg)
 
 
 <!-- ## ✔️Todo Checklist
