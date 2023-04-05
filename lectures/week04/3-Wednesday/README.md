@@ -29,7 +29,7 @@ After completing this lesson, you will be able to:
 
 ## 🟠Homework
 
-<!-- [dom hw](./homework/) -->
+[dom hw](./homework/)
 
 ## 🔵Helpful Videos
 
