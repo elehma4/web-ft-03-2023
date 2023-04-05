@@ -16,20 +16,20 @@ After completing this lesson, you will be able to:
 - Append and remove elements in the document
 
 ## ⭐️ Pre-Reading ⭐️
-- [DOM 101](https://digitalcrafts.instructure.com/courses/189/pages/reading-dom-101?module_item_id=23220)
+- [DOM 101](https://digitalcrafts.instructure.com/courses/252/pages/reading-dom-101?module_item_id=23220)
 
 ## 📍Agenda
 
 ## 🟡 Lecture Presentations
-- [DOM](http://dc-houston.herokuapp.com/p2/Javascript/DOM.html#1)
+- [DOM](https://dc-web2.onrender.com/p2/Javascript/DOM.html#1)
 
-<!-- ## 🟣Labs  -->
-<!-- - [dom exercises](https://github.com/veros-labs/lab-js-dom) -->
-<!-- - [coronavirus](https://github.com/veros-labs/js-lab-coronavirus) -->
+## 🟣Labs 
+- [dom exercises](https://github.com/veros-labs/lab-js-dom)
+- [coronavirus](https://github.com/veros-labs/js-lab-coronavirus)
 
 ## 🟠Homework
 
-[dom hw](./homework/)
+<!-- [dom hw](./homework/) -->
 
 ## 🔵Helpful Videos
 
