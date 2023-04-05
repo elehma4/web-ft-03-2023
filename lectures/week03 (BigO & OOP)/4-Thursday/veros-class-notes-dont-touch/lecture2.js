@@ -150,3 +150,7 @@ for (let el of people.data){
 }
 
 
+const name = (params) => {
+    
+}
+
