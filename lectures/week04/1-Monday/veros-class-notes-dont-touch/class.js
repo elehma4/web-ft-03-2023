@@ -184,4 +184,14 @@ console.log(add(4, 5));
 
 
 
+let lvl1exercise4 = ()=> `Hello World`
+
+
+console.log(lvl1exercise4());
+
+
+let lvl1exercise5 = () => ["Hello World", 4]
+
+
+
 
