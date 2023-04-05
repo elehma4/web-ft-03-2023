@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREATE</title>
+</head>
+<body>
+    
+    <div id="container"></div>
+
+    <script>
+        // create tag
+        let anchor = document.createElement('a') // just need name of tag
+        //   ^this is a node
+        // set attributes for new tag:
+        anchor.setAttribute('href', 'http://www.google.com')
+
+        anchor.innerText = "Google"
+
+        // append new node to dom tree:
+        // grab an existing element out of dom tree
+        let container = document.querySelector('#container')
+        container.append(anchor) // appending new node to existing node
+
+    </script>
+</body>
+</html>

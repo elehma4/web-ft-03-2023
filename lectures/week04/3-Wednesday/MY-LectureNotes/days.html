@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul> -->
+    <!-- create ^this with DOM manipulation -->
+
+    <script>
+        let days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+
+        let ul = document.createElement('ul')
+
+        for(let i = 0; i < days.length; i++){
+            // create new li tag // node
+            let li = document.createElement('li') // node
+            // set the inner text to a day of the week
+            li.innerText = days[i]
+            // attack tag to ul
+            ul.append(li)
+        }
+
+        let body = document.querySelector('body')
+        body.append(ul)
+
+    </script>
+
+</body>
+</html>
