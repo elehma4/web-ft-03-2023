@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .dc{
+            background-color: tomato;
+        }
+
+        #one{
+
+        }
+
+        div > li{
+
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div id="learningDOM">
+
+        <ul>
+            <li class="dc">one</li>
+            <li class="dc">two</li>
+            <li class="dc">three</li>
+            <li class="dc">four</li>
+            <li class="dc">five</li>
+        </ul>
+    </div>
+
+    <span class="dc">This is a span <div>this is a dive</div> tag</span>
+    <span class="dc">This is a span tag</span>
+    <span class="dc">This is a span tag</span>
+    <span class="dc">This is a span tag</span>
+
+
+    <script>
+
+        let ul = document.querySelector('ul')
+
+        console.log(ul)
+
+        let li = document.querySelectorAll('li')
+
+        console.log(li)
+
+
+        let dc = document.querySelectorAll('span.dc')
+        console.log(dc)
+
+
+        // let div = document.getElementById("learningDOM")
+
+        // console.log(div)
+
+        // let liTags = document.getElementsByClassName("dc")
+
+        // console.log(liTags)
+
+        // let spanTags = document.getElementsByTagName("span")
+
+        // console.log(spanTags)
+
+        // let spanTagNodeList = document.getElementsByTagName('span')
+
+        // for(let node of spanTagNodeList){
+        //     node.textContent = "Hello World"
+        // }
+
+        // for(let i = 0; i< spanTagNodeList.length; i++){
+        //     spanTagNodeList[i].innerHTML = "<h1>Hello world</h1>"
+        // }
+
+        // console.log(spanTagNodeList[0].textContent)
+
+        // spanTagNodeList[0].textContent = "Changed the text"
+
+
+
+    </script>
+</body>
+</html>
