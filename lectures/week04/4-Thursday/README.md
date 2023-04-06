@@ -20,8 +20,8 @@ After completing this lesson, you will be able to:
 <!-- ## 📍Agenda -->
 
 ## 🟡 Lecture Presentations
-- [Functions](http://dc-houston.herokuapp.com/p2/Javascript/Functions.html#1)
-- [Anonymous Functions & Callbacks](http://dc-houston.herokuapp.com/p2/Javascript/AnonymousFunctions_Callbacks.html#1)
+- [Functions](https://dc-web2.onrender.com/p2/Javascript/Functions.html#1)
+- [Anonymous Functions & Callbacks](https://dc-web2.onrender.com/p2/Javascript/AnonymousFunctions_Callbacks.html#1)
 
 
 ## 🟣Labs
