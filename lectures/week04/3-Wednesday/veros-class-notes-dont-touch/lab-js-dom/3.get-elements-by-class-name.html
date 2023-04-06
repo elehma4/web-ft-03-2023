@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/c05.css">
+  </head>
+  <body>
+    <div id="page">
+      <h1 id="header">List</h1>
+      <h2>Buy groceries</h2>
+      <ul>
+        <li id="one" class="hot"><em>fresh</em> figs</li>
+        <li id="two" class="hot">pine nuts</li>
+        <li id="three" class="hot">honey</li>
+        <li id="four">balsamic vinegar</li>
+      </ul>
+    </div>
+    
+    <!-- 
+    1. Find all of the elements on the page with a class value equal to "hot"
+
+    
+
+    2. If 3 or more results are found, then select the third element from the NodeList and change the value of its class attribute to "cool" -->
+
+
+    <script>
+        let liNodeList = document.getElementsByClassName('hot')
+
+        liNodeList[2].setAttribute('class', "cool")
+
+        // for (let node in liNodeList){
+
+
+
+        // }
+
+
+    </script>
+  </body>
+</html>
