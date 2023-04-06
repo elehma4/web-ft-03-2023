@@ -1,0 +1,45 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+.header {
+    height: 15vh;
+    margin-top: 15px;
+    z-index: 10;
+    background-color: rgb(1, 152, 212);
+}
+.headerWords{
+    z-index: 15;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.bigHeaderWord{
+    z-index: 15;
+    color: whitesmoke;
+    font-size: xx-large;
+}
+.body1{
+    background-color: bisque;
+    height: 20vh;
+    width: 95%;
+    margin: 20px 30px 20px 30px;
+}
+.blessings{
+    color: maroon;
+    font-size: xx-large;
+    margin: 10px;
+}
+.blessings2{
+    color: brown;
+    margin: 10px;
+    font-size: x-large;
+}
+.botBlessing{
+    background-color: cyan;
+    height: 35px;
+}
+.bg-white{
+    background-color: white;
+    padding-right: 40px;
+    padding-left: 40px;
+}
