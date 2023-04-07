@@ -150,20 +150,42 @@ function sumPlusMinus(nums) {
 const numbers = [10,20,30,40,50]
 
 function maxValue(numArr){
-    return numArr.reduce((a, b)=>{
-        a>b
-    }, 0)
+    return numArr.reduce((prev, curr)=>{
+        // if(prev < curr){
+        //     prev=curr
+        // }else{
+        //     prev=prev
+        // }
+        // return prev
+        if (curr > prev){
+            return curr;
+        } else{
+            return prev
+        }
+}, numArr[0]);
 }
+
 console.log(maxValue(numbers));
 
-// const array1 = [1, 2, 3, 4];
 
-// // 0 + 1 + 2 + 3 + 4
-// const initialValue = 0;
-// const sumWithInitial = array1.reduce(
-//   (accumulator, currentValue) => accumulator + currentValue,
-//   initialValue
-// );
+const fruits = ['apple', 'banana', 'orange', 'apple', 'orange', 'apple']
+//
+//              apple:1   banana:1  orange:1  apple:2   orange:2  apple:3
 
-// console.log(sumWithInitial);
-// // Expected output: 10
+//            obj[apple] = 1                obj[apple]++
+let fruitCount = array =>{
+    return array.reduce((prev, curr)=>{
+        if(prev[curr]){
+            prev[curr] ++
+        } else{
+            {prev[curr] = 1}
+            return prev
+        }
+        return prev
+    }, {})
+}
+
+let results = fruitCount(fruits)
+console.log(results);
+
+
