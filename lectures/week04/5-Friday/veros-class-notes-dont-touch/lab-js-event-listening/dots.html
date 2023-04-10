@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: beige;
+        }
+
+        .dot{
+            height: 20px;
+            width: 20px;
+            background-color: purple;
+            border-radius: 50%;
+            position: absolute;
+           
+            
+        }
+
+        .dot1{
+            height: 15px;
+            width: 15px;
+            background-color: orange;
+            border-radius: 50%;
+            position: absolute;
+        }
+
+        .dot2{
+            height: 40px;
+            width: 40px;
+            background-color: palevioletred;
+            border-radius: 50%;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <script>
+
+        let body = document.querySelector('body')
+
+        let dots = [{className:'dot', width:20}, {className: 'dot1', width: 15}, 
+        {className: 'dot2', width: 40}]
+
+
+        window.addEventListener('click', e=>{
+
+            let index = Math.floor(Math.random() * 3) // 0 - 2.99, 0, 1, 2
+            //create a DOt - create a new element 
+
+            let dot = document.createElement('div') 
+
+            dot.className = dots[index].className
+            // dot.setAttribute('class', 'dot')
+            dot.width = dots[index].width;
+
+            // console.log(e)
+
+            dot.style.left = (e.x - dot.width/2).toString() + 'px'  ///'24px'
+            dot.style.top = (e.y - dot.width/2).toString() + 'px'
+
+
+            body.append(dot)
+
+        })
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Events</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <ul>
+    <li><img src="images/ylw.gif" alt="yellow" id="yellow"></li>
+    <li><img src="images/org.gif" alt="orange" id="orange"></li>
+    <li><img src="images/ppl.gif" alt="purple" id="purple"></li>
+    <li><img src="images/blu.gif" alt="blue" id="blue"></li>
+    <!-- <li><img src="images/pnk.gif" alt="pink" id="pink" onclick="alert('You chose the pink box')" ></li> -->
+    <li><img src="images/pnk.gif" alt="pink" id="pink" ></li>
+    <li><img src="images/grn.gif" alt="green" id="green"></li>
+    <li><img src="images/ygr.gif" alt="ygreen" id="ygreen"></li>
+    <li><img src="images/gry.gif" alt="gray" id="gray"></li>
+    <li><img src="images/red.gif" alt="red" id="red"></li>
+  </ul>
+
+  
+  <script>
+
+
+      let ul = document.querySelector('ul')
+
+      ul.addEventListener('click', (e)=>{
+
+
+        console.log(e.target.id)
+
+        alert(`You've selected the ${e.target.id} box`)
+      })
+
+
+
+      //1. retrieve DOM element 
+
+      // let pinkBox = document.querySelector("#pink")
+
+      // pinkBox.addEventListener("click", ()=>{
+
+      //   alert('Hello world')
+      // })
+
+      //1. retrieve DOM element 
+
+      // let pinkBox = document.querySelector('#pink')
+      //2. attach EL to element and set equal to anon. function
+
+      // pinkBox.onclick = () => { 
+        
+      //   alert('Hello World')
+      // }
+    
+  </script>
+
+</body>
+</html>
