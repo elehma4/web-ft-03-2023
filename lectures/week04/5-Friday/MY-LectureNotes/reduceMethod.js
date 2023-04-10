@@ -51,3 +51,14 @@ let eyeColor = characters.reduce((acc, cur) => {
     return acc
 }, {}) // initial accumulator is an empty object
 console.log(eyeColor);
+
+//5. Get the gender count
+let genderCount = characters.reduce((acc, cur)=>{
+    if(acc[cur.gender]){
+        acc[cur.gender]++
+    } else {
+        acc[cur.gender] = 1
+    }
+    return acc
+}, {});
+console.log(genderCount);
