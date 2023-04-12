@@ -30,7 +30,7 @@ After completing this lesson, you will be able to:
 - [code review 2](https://github.com/veros-labs/js-blackjack-codereview2)
 - [code review 3](https://github.com/veros-labs/js-blackjack-codereview3)
 <!-- - [multi deck blackjack](https://github.com/DigitalCraftsStudents/web-ft-09-2021/tree/main/lectures/week05/2-Tuesday/lecture/multi-deck) -->
-<!-- - [labs](https://github.com/veros-labs/labs-js-es6)  -->
+- [labs](https://github.com/veros-labs/labs-js-es6) 
 
 <!-- ## 🟠Homework  -->
 
