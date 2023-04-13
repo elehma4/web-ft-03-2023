@@ -22,7 +22,8 @@ After completing this lesson, you will be able to:
 
 ## 🟡 Lecture Presentations
 - [ES6](https://dc-web2.onrender.com/p2/Javascript/ES6.html#1)
-- [JS prototypes](https://dc-web2.onrender.com/p2/Javascript/OOP.html)
+<!-- - [JS prototypes](https://dc-web2.onrender.com/p2/Javascript/OOP.html) -->
+- [Error Catching](https://dc-web2.onrender.com/p2/Javascript/ErrorCatching.html#10)
 
 ## 🟣Labs
 
