@@ -15,17 +15,17 @@ After completing this lesson, you will be able to:
 
 <!-- ## 📍Agenda -->
 
-<!-- ## 🟡 Lecture Presentations
-- [AJAX & APIs](http://dc-houston.herokuapp.com/p2/Javascript/AJAX.html#1)
-- [Promises](https://dc-houston.herokuapp.com/p2/Postgres/Promises.html#1)
-- [JSON](http://dc-houston.herokuapp.com/p2/Javascript/JSON.html#1) -->
+## 🟡 Lecture Presentations
+- [AJAX & APIs](https://dc-web2.onrender.com/p2/Javascript/AJAX.html#1)
+- [Promises](https://dc-web2.onrender.com/p2/Postgres/Promises.html#1)
+- [JSON](https://dc-web2.onrender.com/p2/Javascript/JSON.html#1)
 
 <!-- ## 🟣Labs  -->
-<!-- - [AJAX 101 Lab](https://digitalcrafts.instructure.com/courses/189/pages/ajax-101?module_item_id=23284)
+- [AJAX 101 Lab](https://digitalcrafts.instructure.com/courses/189/pages/ajax-101?module_item_id=23284)
 - [Promises Lab](https://digitalcrafts.instructure.com/courses/189/pages/promises?module_item_id=23285)
 - [Dogs API](https://digitalcrafts.instructure.com/courses/189/assignments/4688?module_item_id=23281)
 - [User Generator](https://github.com/veros-labs/js-lab-api-random-user-generator)
-- [Superhero API](https://digitalcrafts.instructure.com/courses/189/assignments/4593?module_item_id=23282) -->
+- [Superhero API](https://digitalcrafts.instructure.com/courses/189/assignments/4593?module_item_id=23282)
 
 
 <!-- ## 🟠Homework
