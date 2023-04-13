@@ -20,7 +20,7 @@ After completing this lesson, you will be able to:
 - [Promises](https://dc-web2.onrender.com/p2/Postgres/Promises.html#1)
 - [JSON](https://dc-web2.onrender.com/p2/Javascript/JSON.html#1)
 
-<!-- ## 🟣Labs  -->
+## 🟣Labs 
 - [AJAX 101 Lab](https://digitalcrafts.instructure.com/courses/189/pages/ajax-101?module_item_id=23284)
 - [Promises Lab](https://digitalcrafts.instructure.com/courses/189/pages/promises?module_item_id=23285)
 - [Dogs API](https://digitalcrafts.instructure.com/courses/189/assignments/4688?module_item_id=23281)
