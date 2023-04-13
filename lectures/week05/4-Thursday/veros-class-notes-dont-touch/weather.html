@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <h1 id="temp"></h1>
+
+    <script>
+
+            // yahoo.com     ?   key=value    &   key=value   & key value
+
+            // https://api.openweathermap.org/data/2.5/weather?q=Houston&appid=9361bd03ec7175e9eea92fdf7a717518
+
+            let url = "https://api.openweathermap.org/data/2.5/weather?q=New York&appid=9361bd03ec7175e9eea92fdf7a717518"
+
+            fetch(url)
+            .then(results => results.json())
+            .then(data =>{
+
+                // console.log(data)
+
+                console.log(data.main.temp)
+
+                // convert cel 
+                let degC = data.main.temp - 273.15;
+
+                // cel to far 
+                // (C * 1.8) + 32 
+
+                let degF = Math.floor((degC * 1.8) + 32)
+
+                console.log(degF)
+
+                let h1 = document.querySelector('#temp')
+
+                h1.textContent = degF.toString();
+            })
+            .catch(err=>{
+
+                console.log(err)
+            })
+            
+
+    </script>
+</body>
+</html>
