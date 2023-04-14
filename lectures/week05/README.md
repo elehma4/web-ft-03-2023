@@ -31,8 +31,13 @@ After completing this lesson, you will be able to:
 - [User Generator](https://github.com/veros-labs/js-lab-api-random-user-generator) -->
 - [Superhero API](https://digitalcrafts.instructure.com/courses/189/assignments/4593?module_item_id=23282)
 
-<!-- ## 🟠Homework
-- [homework](./homework)  -->
+## 🟠Homework
+- [Game of Thrones](https://digitalcrafts.instructure.com/courses/252/assignments/11744) 
+
+## Algrorithms 
+
+- [Reverse a string recursively](https://github.com/DigitalCraftsStudents/web-ft-03-2023/tree/main/algorithms/recursion)
+- [Balanced Brackets](https://github.com/DigitalCraftsStudents/web-ft-03-2023/tree/main/algorithms/callStack)
 
 ## 🔵Helpful Videos
 - [AJAX Crash Course (Vanilla JavaScript)](https://www.youtube.com/watch?v=82hnvUYY6QA)
