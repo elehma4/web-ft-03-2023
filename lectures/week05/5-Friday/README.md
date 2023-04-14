@@ -34,7 +34,7 @@ After completing this lesson, you will be able to:
 ## 🟠Homework
 - [Game of Thrones](https://digitalcrafts.instructure.com/courses/252/assignments/11744) 
 
-## Algrorithms 
+## Algorithms 
 
 - [Reverse a string recursively](https://github.com/DigitalCraftsStudents/web-ft-03-2023/tree/main/algorithms/recursion)
 - [Balanced Brackets](https://github.com/DigitalCraftsStudents/web-ft-03-2023/tree/main/algorithms/callStack)
