@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superhero API</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <style>
+        body{
+            width: 100vw;
+            height: 100hw;
+        }
+        .container{
+            width: 100%;
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+        }
+        .page{
+            flex-direction: column;
+        }
+        .movieInfo{
+            display: flex;
+            flex-direction: row;
+            width: 100vw;
+            height: 63vh;
+            align-items: center;
+            justify-content: space-around;
+            margin-top: 10px;
+        }
+        .details{
+            margin-bottom: 10px;
+        }
+        .allDetails{
+            display: flex;
+            flex-direction: column;
+        }
+        .poster{
+            display: flex;
+            flex-direction: column;
+        }
+        .titles{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            flex-direction: row;
+            height: 37vh;
+            width: 100vw;
+        }
+        .img1{
+            height: 100px;
+            width: 75px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+        #holder{
+            display: flex;
+            flex-wrap: wrap;
+            padding: 5px;
+            margin: 10px;
+        }
+       #title{
+            display: flex;
+            margin-bottom: 0px;
+       }
+       #title:hover{
+            text-decoration: underline;
+            color: blue;
+            cursor: pointer;
+       }
+       #previewInput{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 17px 100px 5px 17px;
+       }
+        
+    </style>
+</head>
+<body>
+    
+<div class="container d-flex">
+
+    <!-- Main: -->
+    <div class="position-relative d-flex justify-content-center"> 
+
+        <!-- Page: -->
+        <div class="page d-flex align-items-center justify-content-center">
+
+            <!-- Titles -->
+            <div class="titles">
+                <div><h1>Batman Movies</h1></div>
+                <div id="holder">
+                </div> 
+            </div>
+            <!-- Movie Info -->
+            <div class="movieInfo">
+                <div class="poster">
+                    <img id="img2" src="" alt=""></img>
+                </div>
+                <div class="allDetails">
+                    <div class="details">Year: <span id="year"></span></div>
+                    <div class="details">Rated: <span id="rated"></span></div>
+                    <div class="details">Released: <span id="released"></span></div>
+                    <div class="details">Director: <span id="director"></span></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</div>
+<script src="superhero.js">
+</script>
+</body>
+</html>
