@@ -7,35 +7,15 @@
     <title>Weather API App</title>
 </head>
 <body>
-    
-    <div id="temp"></div>
+    <div class="container d-flex">
+        <h1>Input your city:</h1>
+        <input type="text" id="cityInput"></input>
+        <button>Find your temperature</button>
+        <h1>The temperature in your city is: <span id="temp"></span></h1>
+        <h2>...<span id="emoji"></span></h2>
 
-    <script>
-
-
-
-        let url = "https://api.openweathermap.org/data/2.5/weather?q=Bonita Springs&appid=9361bd03ec7175e9eea92fdf7a717518"
-
-        fetch(url)
-        .then(results=>results.json())
-        .then(data =>{
-            console.log(data);
-            console.log(data.main.temp);
-            // convert C
-            let degC = data.main.temp - 273.15;
-            // C to F
-            let degF = Math.floor((degC * 1.8) + 32)
-            console.log(degF);
-
-            let h1 = document.querySelector('#temp')
-            h1.textContent = degF.toString();
-        })
-        .catch(err=>{
-            console.log(err);
-        })
-
-        // url ? key=value & key=value & key=value
-        
+    </div>
+    <script src="weather.js">
     </script>
 </body>
 </html>
