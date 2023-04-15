@@ -41,7 +41,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 100px;
+            height: 57px;
             width: 400px;
             background-color: rgb(247, 149, 149); 
             /* idea: change background-color based on house */
@@ -50,6 +50,8 @@
             border-radius: 2px;
             border-style: solid;
             border-color: black;
+            font-family: Gothic;
+            font-size: large;
             /* border: 3px; */
             /* border-color: snow; */
         }
@@ -70,7 +72,10 @@
             margin-top: 5%;
             margin-bottom: 60%;
         }
-        input[type='text'] { font-size: 19px; font-family: Gothic; }
+        input[type='text'] { 
+            font-size: 22px; 
+            font-family: Gothic; 
+        }
         .mainTitle{
             margin-bottom: 22px;
             font-family: Gothic;
@@ -95,25 +100,19 @@
                 <!-- Character Search: -->
                 <div class="charSearch">
                     <div class="mainTitle"><h3>Game of Thrones Characters</h3></div>
-                    <div><input type="text"></input></div>
+                    <div><input type="search" placeholder="Search a character..."></input></div>
                     <p>Example: Jon Snow || Daenerys Targaryen</p>
                 </div>
 
                 <!-- API Call - Characters & Houses -->
-                <div class="charAndHouse">
-                        character & house div from data call
-                </div>
-                <div class="charAndHouse">
-                        character & house div from data call
-                </div>
-                <div class="charAndHouse">
-                        character & house div from data call
-                </div>
 
             </div>
         </div>
 
     </div>
+
+    <script src="scripts/apiGOT.js">
+    </script>
 
 </body>
 </html>
