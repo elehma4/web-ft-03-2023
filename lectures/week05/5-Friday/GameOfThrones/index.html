@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of Thrones</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <style>
+        .container{
+            width: 100vw;
+            height: 100vh;
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            flex-direction: column;
+        }
+        .bg-image{
+            z-index: 10;
+            width: 100vw;
+            height: 100vh;
+        }
+        .holder1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .holder2{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 277px;
+        }
+        .charAndHouse{
+            z-index: 15;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100px;
+            width: 400px;
+            background-color: rgb(247, 149, 149); 
+            /* idea: change background-color based on house */
+            margin-left: 215px;
+            margin-top: 1px;
+            border-radius: 2px;
+            border-style: solid;
+            border-color: black;
+            /* border: 3px; */
+            /* border-color: snow; */
+        }
+        .charSearch{
+            z-index: 15;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 199px;
+            width: 400px;
+            background-color: rgb(247, 149, 149); 
+            margin-left: 215px;
+            margin-top: 1px;
+            border-radius: 5px;
+            border-style: solid;
+            border-color: black;
+            margin-top: 5%;
+            margin-bottom: 60%;
+        }
+        input[type='text'] { font-size: 19px; font-family: Gothic; }
+        .mainTitle{
+            margin-bottom: 22px;
+            font-family: Gothic;
+        }
+        p{
+            margin-top: 17px;
+            font-family: Gothic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container d-flex">
+
+        <!-- Background Image -->
+        <div class="top-0 start-0 position-absolute">
+            <img class="bg-image" src="images/jon-and-army.jpg" alt="">
+        </div>
+
+        <div class="holder1">
+            <div class="holder2">
+
+                <!-- Character Search: -->
+                <div class="charSearch">
+                    <div class="mainTitle"><h3>Game of Thrones Characters</h3></div>
+                    <div><input type="text"></input></div>
+                    <p>Example: Jon Snow || Daenerys Targaryen</p>
+                </div>
+
+                <!-- API Call - Characters & Houses -->
+                <div class="charAndHouse">
+                        character & house div from data call
+                </div>
+                <div class="charAndHouse">
+                        character & house div from data call
+                </div>
+                <div class="charAndHouse">
+                        character & house div from data call
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
