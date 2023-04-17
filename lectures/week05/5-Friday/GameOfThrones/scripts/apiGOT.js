@@ -37,7 +37,7 @@ const getEntireCharList = async function(pageNum = 1) {
                                       Culture: ${results[i].culture}<br>`;
             modal.append(modalContent)
 
-            //click outside of popup exit:
+            //click outside of popup exit: 
             modal.addEventListener('click', ()=>{
                 modal.remove();
             });
