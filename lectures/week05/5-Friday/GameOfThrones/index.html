@@ -9,6 +9,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 
     <style>
+        body {
+            background-image: url(images/jon-and-daenarys.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            overflow-x: hidden;
+        }
         .container{
             width: 100vw;
             height: 100vh;
@@ -27,6 +34,8 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            /* overflow-x: hidden;
+            overflow-y: auto; */
         }
         .holder2{
             position: relative;
@@ -39,11 +48,13 @@
         .charAndHouse{
             z-index: 15;
             display: flex;
+            /* flex-wrap: wrap; */
             align-items: center;
             justify-content: center;
-            height: 57px;
+            flex-direction: column;
+            height: 111px;
             width: 400px;
-            background-color: rgb(247, 149, 149); 
+            background-color: rgb(64, 239, 146, 0.9); 
             /* idea: change background-color based on house */
             margin-left: 215px;
             margin-top: 1px;
@@ -55,17 +66,35 @@
             /* border: 3px; */
             /* border-color: snow; */
         }
+        .charAndHouse:hover{
+            cursor: pointer;
+        }
+        .house{
+            z-index: 15;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            font-family: Gothic;
+            font-size: large;
+        }
+        .multiHouse{
+            display: flex;
+            z-index: 15;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            font-family: Gothic;
+            font-size: large;
+        }
         .charSearch{
             z-index: 15;
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            height: 199px;
+            height: 222px;
             width: 400px;
-            background-color: rgb(247, 149, 149); 
             margin-left: 215px;
-            margin-top: 1px;
             border-radius: 5px;
             border-style: solid;
             border-color: black;
@@ -73,38 +102,53 @@
             margin-bottom: 60%;
         }
         input[type='text'] { 
-            font-size: 22px; 
             font-family: Gothic; 
+            margin-top: 33px;
         }
         .mainTitle{
+            margin-top: 21px;
             margin-bottom: 22px;
             font-family: Gothic;
         }
         p{
-            margin-top: 17px;
+            margin-top: 55px;
             font-family: Gothic;
+            color: white;
         }
         .modal {
-            position: relative;
-            z-index: 20;
-            top: 0;
-            left: 0;
-            width: 50%;
+            position: fixed;
+            background-image: url("images/westeros.jpg");
+            background-size: cover;
+            width: 100%;
             height: 100%;
+            left: 50%;
+            top: 50%;
+            -ms-transform: translate(-50%,-50%);
+            -moz-transform:translate(-50%,-50%);
+            -webkit-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
             background-color: white;
             display: flex;
             justify-content: center;
             align-items: center;
+            border-radius: 1%;
+        }
+        .modal:hover{
+            cursor: pointer;
         }
         .modal-content {
-            background-color: rgb(247, 149, 149); 
+            background-color: rgba(173, 216, 230, 0);
             padding: 20px;
             border-radius: 5px;
+            width: 50%;
             font-family: Gothic;
             display: flex;
             justify-content: center;
             align-items: center;
+            color: white;
+            border: 0px;
         }
+
     </style>
 </head>
 <body>
@@ -114,6 +158,8 @@
         <div class="top-0 start-0 position-absolute">
             <img class="bg-image" src="images/jon-and-army.jpg" alt="">
         </div>
+
+        
 
         <div class="holder1">
             <div class="holder2">
@@ -126,7 +172,9 @@
                 </div>
 
                 <!-- API Call - Characters & Houses -->
-
+                <div class="">
+                    <!-- <img class="bg-image2" src="images/jon-and-daenarys.jpg" alt=""> -->
+                </div>
             </div>
         </div>
 
