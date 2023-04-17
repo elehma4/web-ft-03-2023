@@ -1,0 +1,9 @@
+
+# untrack: git rm -r  --cached 3-Wednesday
+# track: git add -f week01/3-Wednesday
+# cp -r projects ../April2021
+
+# 1.front-end
+2.full-stack
+3.react
+4.capstone
