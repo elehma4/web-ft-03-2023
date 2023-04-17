@@ -1,6 +1,6 @@
 # Frontend Group Project
 
-- [Groups](./GROUPS.md)
+<!-- - [Groups](./GROUPS.md) -->
 
 - [Front End Guide](https://dc-web2.onrender.com/p2/GroupProjects/frontEnd.html#1)
 - [Local Storage](https://dc-web2.onrender.com/p2/Javascript/LocalStorage.html#1)
@@ -14,8 +14,8 @@
 
 ## Project Kickoff
 
-* Front End Project start: __Monday, June 7th__.
-* Front End Project presentation: __Monday, June 14th__.
+* Front End Project start: __Tuesday, April 18th__.
+* Front End Project presentation: __Friday, April 28th__.
 
 ## Description
 * Your task is to build something awesome with your team!
