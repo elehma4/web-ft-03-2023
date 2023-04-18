@@ -1,4 +1,4 @@
-# Week 6 - Wednesday
+# Week 6 - Tuesday
 
 <!-- ## Pre-Reading
 - []() -->
