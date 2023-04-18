@@ -11,7 +11,7 @@
 
 ## Presentations
 
-- [Advanced Git](http://dc-houston.herokuapp.com/p2/Git/AdvancedGit.html#1)
+- [Advanced Git](https://dc-web2.onrender.com/p2/Git/AdvancedGit.html#1)
 - [Local Storage](https://dc-web2.onrender.com/p2/Javascript/LocalStorage.html#1)
 - [Error Catching](https://dc-web2.onrender.com/p2/Javascript/ErrorCatching.html#1) 
 
