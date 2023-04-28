@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        localStorage.setItem('color', "green")
+
+        
+        let color = localStorage.getItem('color')
+        console.log(color)
+
+        localStorage.colorSetting = "hello world"
+
+        console.log(localStorage.colorSetting)
+
+        let obj = {
+            firsName: "Kanye",
+            lastName: "West"
+        }
+
+        localStorage.myObj = JSON.stringify(obj)
+
+        console.log(localStorage.myObj)
+
+
+        let parsedObj = JSON.parse(localStorage.myObj)
+
+        console.log(parsedObj)
+    </script>
+</body>
+</html>
