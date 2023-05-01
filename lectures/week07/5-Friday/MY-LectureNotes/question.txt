@@ -1,0 +1,30 @@
+|-------- dough -------->|-------- dough -------->
+|-------- sauce --------> |-- cheese -->
+
+
+Consider the following. We want to make a pizza.
+// We make the dough independently.
+// We make the sauce independently.
+// We want to be able to taste the sauce, before we decide what kind of cheese is
+going to work best on the pizza.
+
+
+1. dough complete 
+2. sauce complete -> taste
+3. last is cheese based on taste of sauce
+
+async function makePizza(){
+ //   if(dough == 'complete'){
+//        await makeDough()
+//    }
+
+    makeSauce()
+    await graidCheese()
+
+
+}
+
+functions:
+makeDough(){}
+makeSauce(){}
+graidCheese(){}
