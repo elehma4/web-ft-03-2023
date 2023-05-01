@@ -18,8 +18,8 @@ After completing this lesson, you will be able to:
 
 ## 🟡 Lecture Presentations
 
-- [Node 101](https://dc-houston.herokuapp.com/p2/Node/Node101.html)
-- [Express](https://dc-houston.herokuapp.com/p2/Node/NodeExpress.html#1)
+- [Node 101](https://dc-web2.onrender.com/p2/Node/Node101.html)
+- [Express](https://dc-web2.onrender.com/p2/Node/NodeExpress.html#1)
 
 <!-- ## 🟣Labs  -->
 
