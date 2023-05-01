@@ -143,8 +143,6 @@ app.get('/dogs/:id', (req, res) => {
             </ul>
     
             <img src='${img}' width='400px'>
-    
-        
         `)
     
     })
