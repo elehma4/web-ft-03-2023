@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1><a href="/city">City Home</a></h1>
+
+
+    <ul>
+        
+        <% for( let index = 0; index < cities.length; index++ ) { %>
+        
+            <li><a href="/city/<%= index %>"> <%= cities[index] %>   </a></li>
+        <% } %>
+
+
+        <% for( let index = 0; index < cities.length; index++ ) { %>
+        
+            <h1> <%= cities[index] %>  </h1>
+
+            <img src="<%= pictures[index] %>" width="400px" alt="">
+        <% } %>
+
+
+    </ul>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- <link rel="stylesheet" href="/css/style.css"> -->
+    <title>Document</title>
+</head>
+<body>
+
+
+    <h1>Hello, there we're learning EJS</h1>
+
+    <h2> <%= greeting %> </h2>
+
+    <a href="#">  <%= greeting %> </a>
+
+    <% if (firstName) { %>
+     
+        <h1> My name is <%= firstName %>  </h1>
+    <% } %>
+
+
+    <% for( let index = 0; index < nums.length; index++ ) { %>
+    
+        <p>num: <%= nums[index] %> </p>
+    <% } %>
+    
+    <h2> <%= firstName %>  <%= lastName %> </h2>
+
+    <h2> <%= year %></h2>
+
+    <h2> <%= nums %></h2>
+
+    <h2> <%= contacts.cell %></h2>
+
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate ipsum dolores odit facere doloremque ducimus ex reiciendis eveniet! Qui ducimus ex obcaecati illo provident illum doloremque sed quas, et animi.
+    </p>
+
+
+    
+</body>
+</html>
