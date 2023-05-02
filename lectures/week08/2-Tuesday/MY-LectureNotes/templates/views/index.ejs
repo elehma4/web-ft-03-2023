@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Learning EJS</title>
+</head>
+<body>
+
+    <h1>Hello, we're learning EJS templates.</h1>
+
+    <h2> <%= greeting %> </h2>
+
+    <a href="#"><%= greeting %></a>
+
+    <% if (firstName) { %>
+        <h1>Hello, <%= firstName %> </h1>
+    <% } %>
+
+    <% for( let i = 0; i < nums.length; i++ ) { %>
+
+        <p>num: <%= nums[i] %> </p>
+    <% } %>
+
+    <h2> <%= firstName %> <%= lastName %> </h2>
+
+    <h2> <%= year %> </h2>
+
+    <h2> <%= nums %> </h2>
+
+    <h2> <%= contacts %> </h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia praesentium voluptas, blanditiis placeat temporibus quaerat, reprehenderit ex maxime eaque esse doloremque aliquam facilis dolores iusto et, eius libero neque vitae.</p>
+    
+</body>
+</html>

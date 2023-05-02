@@ -4,6 +4,10 @@ const app = express() // invoke
 
 const PORT = 3000;
 
+app.use(express.static('public')) //hold all static resources in a folder called public
+
+app.set('view engine', 'ejs')
+
 // MVC
 // Model Viewer Controller
 // data -> models folder
