@@ -32,7 +32,7 @@ Inside of the  data/data.json, create a json object with your favorite music art
 
 The format should be an object with the key “albums”.  The value should be and array of objects.  Each object should represent an album with all of the information from above. Remember that this is a json object, not a JS object, so the keys should be strings (include quotes)
 
-```js◊
+```js
 {
 “albums”: [{  }, {  }, { } ]
 }
