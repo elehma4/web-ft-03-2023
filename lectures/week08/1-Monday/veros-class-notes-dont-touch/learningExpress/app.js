@@ -179,6 +179,13 @@ app.get('/dogs/:id', (req, res) => {
 
  })
 
+ // localthost:3000/calculator/6/34/subract
+ app.get('/calcuator', (req, res)=>{
+
+
+    res.send('answer')
+ })
+
 app.listen(PORT, ()=>{
 
 
