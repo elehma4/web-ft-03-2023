@@ -20,14 +20,14 @@ After completing this lesson, you will be able to:
 
 <!-- ## 📍Agenda -->
 
-<!-- ## 🟣Labs 
-- [artspeakers](https://github.com/veros-labs/lab-node-ejs-artspeakers) -->
+## 🟣Labs 
+- [artspeakers](https://github.com/veros-labs/lab-node-ejs-artspeakers)
 
-<!-- ## 🟡 Lecture Presentations
-- [EJS](https://dc-houston.herokuapp.com/p2/Node/EJS.html#1) -->
+## 🟡 Lecture Presentations
+- [EJS](https://dc-web2.onrender.com/p2/Node/EJS.html#1)
 
-<!-- ## 🟠Homework 
-- [music website](./homework) -->
+## 🟠Homework 
+- [music website](./homework)
 
 ## 🔵Helpful Videos
 - [Setting Up Mustache](https://www.udemy.com/course/nodejs-complete-guide-to-building-data-driven-applications/learn/lecture/14105026#overview)
