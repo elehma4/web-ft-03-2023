@@ -21,16 +21,16 @@ After completing this lesson, you will be able to:
 
 <!-- ## 📍Agenda -->
 
-<!-- ## 🟡 Lecture Presentations
-- [Express Forms & Redirects](https://dc-houston.herokuapp.com/p2/Node/NodeForms.html#1) -->
+## 🟡 Lecture Presentations
+- [Express Forms & Redirects](https://dc-web2.onrender.com/p2/Node/NodeForms.html#1)
 <!-- - [Debugging](https://dc-class.herokuapp.com/docs/javascript/debugging.md#1) -->
 
-<!-- ## 🟣Labs
+## 🟣Labs
 
-- [forms lab](https://github.com/veros-labs/lab-node-forms) -->
+- [forms lab](https://github.com/veros-labs/lab-node-forms)
 
-<!-- ## 🟠Homework 
-- Continue with bandwebsite: Add a forum to your band site -->
+## 🟠Homework 
+- Continue with bandwebsite: Add a forum to your band site
 
 ## 🔵Helpful Videos
 - [Posting Data through Mustache Pages](https://www.udemy.com/course/nodejs-complete-guide-to-building-data-driven-applications/learn/lecture/14105040#overview)
