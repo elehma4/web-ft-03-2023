@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    
+    <%- include ('partials/nav.ejs') %> 
+    
+    <button id="add">+</button>
+
+    <div id="value"> 45</div>
+
+    <button id="subtract">-</button>
+
+
+    <script>
+
+        //client side js 
+
+
+        let counterValue = document.querySelector('#value')
+        let addButton = document.querySelector('#add')
+        let subtractButton = document.querySelector('#subtract')
+
+
+        const getCountValue = async () => { 
+
+            try{
+
+                let result = await fetch('/api/counter')  
+                let data = await result.json(); 
+
+                counterValue.textContent = data.value
+            }
+            catch{
+
+            }
+         }
+
+         getCountValue()
+
+
+        addButton.addEventListener('click', async () => { 
+            
+
+            try{
+                let result = await fetch('/api/counter', {method: 'post'})
+                let data = await result.json() 
+
+               
+                counterValue.textContent = data.value
+            }
+            catch{
+
+            }
+         })
+
+    </script>
+</body>
+</html>
