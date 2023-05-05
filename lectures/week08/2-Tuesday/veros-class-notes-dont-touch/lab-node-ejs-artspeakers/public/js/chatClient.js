@@ -8,12 +8,10 @@ let chatMessage = document.querySelector('#chat-message')
 
 //connect socket.io  
 
-const socket = io()
+const socket = io('http://localhost:3000')
 console.log('cp1');
 /// emitting a message 
 
-
-socket.on('connection', ()=>{
 
     socket.on('chatMessage', (msg)=>{
         console.log(msg);
@@ -22,17 +20,14 @@ socket.on('connection', ()=>{
     let chatForm = document.querySelector('form');
    
 
-   if(chatForm){
+
 
     chatForm.addEventListener('submit', e=>{
 
         console.log('cp2');
         e.preventDefault(); 
 
-    console.log(
-        'hello'
-    );
-        //sending amessag out to our node server 
+      //sending amessag out to our node server 
 
         socket.emit('postMessage', {
             username: chatUsername.value, 
@@ -44,18 +39,18 @@ socket.on('connection', ()=>{
 
         chatMessage.focus();
 
-        //receiving a broadcast 
-
-        socket.on('updateMessages', data=>{
-
-            console.log(data);  //{useraname:,message}
-
-            showMessage(data)
-        })
 
     })
-   }
-})
+
+
+    socket.on('updateMessages', data=>{
+
+        console.log(data);  //{useraname:,message}
+
+        showMessage(data)
+    })
+
+
     
 
 const showMessage = (data) => {
