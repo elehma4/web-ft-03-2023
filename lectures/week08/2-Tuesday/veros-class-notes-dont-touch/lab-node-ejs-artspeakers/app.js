@@ -3,6 +3,8 @@
 
 const express = require('express');
 const app = express()
+const socket = require('socket.io');
+
 let PORT = 3000;
 
 //configure a public folder 
@@ -18,11 +20,33 @@ app.set('view engine', 'ejs')
 app.use(require('./routes/index'))
 app.use(require('./routes/speakers'))
 app.use(require('./routes/feedback'))
+app.use(require('./routes/chat'))
 
 
 //start your server
 
-app.listen(PORT, ()=>{
+const server = app.listen(PORT, ()=>{
     console.log(`listenikng on port ${PORT}`);
+})
+
+
+let io = socket(server) 
+
+io.on('connection', (socket)=>{
+
+    console.log('connecteed');
+
+    socket.emit('chatMessage', {msg: "Hello from our backend server"})
+
+    socket.on('postMessage', (data)=>{  //what our client sends to the server 
+
+        io.emit('updateMessages', data)  //broadcasting out to all listening clients
+    })
+
+    // socket.on('disconnect', (user)=>{
+
+    //     io.emit('User has left the room')
+    // })
+
 })
 
