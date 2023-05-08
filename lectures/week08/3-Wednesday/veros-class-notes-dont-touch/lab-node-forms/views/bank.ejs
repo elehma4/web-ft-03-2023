@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+
+    <%- include ('partials/nav.ejs') %> 
+
+    <h1 id="checkingBalance"></h1>
+    <h1 id="savingsBalance"></h1>
+
+    <form id="bankingForm" >
+        <input name="amount" id="amount" type="text">
+
+        <select name="transType" id="transType">
+            <option value="checking/deposit">Checking</option>
+            <option value="savings/deposit">Savings</option>
+        </select>
+        
+
+        <button type="submit">Submit</button>
+    </form>
+
+    
+
+    <script>
+
+        //grab dom elements
+
+        let bankingForm  = document.querySelector('#bankingForm')
+        let amount = document.querySelector('#amount')
+        let transType = document.querySelector('#transType')
+        let checking = document.querySelector('#checkingBalance')
+        let savings = document.querySelector('#savingsBalance')
+
+        bankingForm.addEventListener('submit', async (e) => { 
+            
+            e.preventDefault() //prevents the default behaviour of a form. 
+
+
+            let newTransaction = {
+                amount: amount.value, 
+                transType: transType.value
+            }
+
+            let result = await fetch('/depositchecking', {
+
+                method: 'POST', 
+                headers: {'Content-type':  'application/json; charset=UTF-8'},
+                body: JSON.stringify(newTransaction)
+            })
+
+            let balance = await  result.json()
+
+            console.log(balance)
+
+            checking.textContent = balance.checking; 
+            savings.textContent = balance.savings;
+
+         })
+
+
+    </script>
+
+</body>
+
+</html>
