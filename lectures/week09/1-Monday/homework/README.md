@@ -63,3 +63,4 @@ Write queries to get
 6. count the number of restaurants by category.
 7. get the average stars per restaurant by category.
 8. get the max stars of a restaurant by category.
+
