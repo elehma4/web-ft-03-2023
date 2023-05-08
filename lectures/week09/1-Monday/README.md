@@ -15,8 +15,8 @@ After completing this lesson, you will be able to:
 
 
 ## 🟡 Lecture Presentations
-- [PostgresSQL](https://dc-web2.onrender.com/p2/p2/Postgres/PostgresSQL.html#1)
-- [Aggregation](https://dc-web2.onrender.com/p2/p2/Postgres/Aggregation.html#1)
+- [PostgresSQL](https://dc-web2.onrender.com/p2/Postgres/PostgresSQL.html#1)
+- [Aggregation](https://dc-web2.onrender.com/p2/Postgres/Aggregation.html#1)
 
 <!-- ## 🟣Labs  -->
 
