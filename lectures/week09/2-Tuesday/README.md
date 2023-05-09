@@ -16,13 +16,13 @@ After completing this lesson, you will be able to:
 
 
 
-<!-- ## 🟡 Lecture Presentations
+## 🟡 Lecture Presentations
 - [PostgreSQL Associations](https://dc-web2.onrender.com/p2/Postgres/Relationships.html#1)
-- [Distincts & Subselects](https://dc-web2.onrender.com/p2/Postgres/DisctincsSubSelects.html#1) -->
+- [Distincts & Subselects](https://dc-web2.onrender.com/p2/Postgres/DisctincsSubSelects.html#1)
 
-<!-- ## 🟣Labs
+## 🟣Labs
 - [data](https://github.com/veros-labs/lab-sql-products)
-- [employee db](https://github.com/veros-labs/lab-sql-employees-db) -->
+- [employee db](https://github.com/veros-labs/lab-sql-employees-db)
 
 <!-- ## 🟠Homework 
 [Homework](./homework) -->
