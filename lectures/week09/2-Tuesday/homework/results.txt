@@ -1,0 +1,229 @@
+ name 
+------
+(0 rows)
+
+   project name   | tech name 
+------------------+-----------
+ Personal Website | HTML
+ Personal Website | CSS
+ Personal Website | HTML
+ Personal Website | CSS
+(4 rows)
+
+ tech name  
+------------
+ JavaScript
+ Java
+ Ruby
+(3 rows)
+
+           name            | num of techs 
+---------------------------+--------------
+ CSS Tricks Blog Layout    |            4
+ Catch the Monster Game    |            6
+ Medium Blog Layout        |            4
+ Modal Dialog              |            4
+ Mozilla Front Page        |            6
+ Personal Website          |            4
+ Phone Book                |            6
+ RPG Hero Game             |            4
+ School Bus                |            4
+ Turtle Graphics Exercises |            4
+(10 rows)
+
+ project without tech 
+----------------------
+ Whiteboard Exercises
+(1 row)
+
+      name       | count 
+-----------------+-------
+ HTML            |    12
+ Turtle Graphics |     2
+ PyGame          |     2
+ Python          |     8
+ File IO         |     2
+ CSS             |    12
+ Bootstrap       |     2
+ Objects         |     4
+ Pickle          |     2
+(9 rows)
+
+      name       
+-----------------
+ HTML
+ Turtle Graphics
+ PyGame
+ Python
+ File IO
+ CSS
+ Bootstrap
+ Objects
+ Pickle
+(9 rows)
+
+ project without tech 
+----------------------
+ Whiteboard Exercises
+(1 row)
+
+    projects with tech     
+---------------------------
+ Phone Book
+ CSS Tricks Blog Layout
+ Turtle Graphics Exercises
+ Medium Blog Layout
+ Mozilla Front Page
+ School Bus
+ RPG Hero Game
+ Modal Dialog
+ Personal Website
+ Catch the Monster Game
+(10 rows)
+
+ project without tech 
+----------------------
+ Whiteboard Exercises
+(1 row)
+
+           name            | num of techs 
+---------------------------+--------------
+ Turtle Graphics Exercises |            4
+ RPG Hero Game             |            4
+ Personal Website          |            4
+ Medium Blog Layout        |            4
+ CSS Tricks Blog Layout    |            4
+ School Bus                |            4
+ Modal Dialog              |            4
+ Phone Book                |            6
+ Catch the Monster Game    |            6
+ Mozilla Front Page        |            6
+(10 rows)
+
+      name       | num of projects 
+-----------------+-----------------
+ Pickle          |               2
+ Bootstrap       |               2
+ Turtle Graphics |               2
+ PyGame          |               2
+ File IO         |               2
+projects_db=# \i queries.sql
+ name 
+------
+(0 rows)
+
+   project name   | tech name 
+------------------+-----------
+ Personal Website | HTML
+ Personal Website | CSS
+ Personal Website | HTML
+ Personal Website | CSS
+(4 rows)
+
+ tech name  
+------------
+ JavaScript
+ Java
+ Ruby
+(3 rows)
+
+           name            | num of techs 
+---------------------------+--------------
+ CSS Tricks Blog Layout    |            4
+ Catch the Monster Game    |            6
+ Medium Blog Layout        |            4
+ Modal Dialog              |            4
+ Mozilla Front Page        |            6
+ Personal Website          |            4
+ Phone Book                |            6
+ RPG Hero Game             |            4
+ School Bus                |            4
+ Turtle Graphics Exercises |            4
+(10 rows)
+
+ project without tech 
+----------------------
+ Whiteboard Exercises
+(1 row)
+
+      name       | count 
+-----------------+-------
+ HTML            |    12
+ Turtle Graphics |     2
+ PyGame          |     2
+ Python          |     8
+ File IO         |     2
+ CSS             |    12
+ Bootstrap       |     2
+ Objects         |     4
+ Pickle          |     2
+(9 rows)
+
+      name       
+-----------------
+ HTML
+ Turtle Graphics
+ PyGame
+ Python
+ File IO
+ CSS
+ Bootstrap
+ Objects
+ Pickle
+(9 rows)
+
+ project without tech 
+----------------------
+ Whiteboard Exercises
+(1 row)
+
+    projects with tech     
+---------------------------
+ Phone Book
+ CSS Tricks Blog Layout
+ Turtle Graphics Exercises
+ Medium Blog Layout
+ Mozilla Front Page
+ School Bus
+ RPG Hero Game
+ Modal Dialog
+ Personal Website
+ Catch the Monster Game
+(10 rows)
+
+ project without tech 
+----------------------
+ Whiteboard Exercises
+(1 row)
+
+           name            | num of techs 
+---------------------------+--------------
+ Turtle Graphics Exercises |            4
+ RPG Hero Game             |            4
+ Personal Website          |            4
+ Medium Blog Layout        |            4
+ CSS Tricks Blog Layout    |            4
+ School Bus                |            4
+ Modal Dialog              |            4
+ Phone Book                |            6
+ Catch the Monster Game    |            6
+ Mozilla Front Page        |            6
+(10 rows)
+
+      name       | num of projects 
+-----------------+-----------------
+ Pickle          |               2
+ Bootstrap       |               2
+ Turtle Graphics |               2
+ PyGame          |               2
+ File IO         |               2
+ Objects         |               4
+ Python          |               8
+ HTML            |              12
+ CSS             |              12
+(9 rows)
+
+        avg         
+--------------------
+ 4.6000000000000000
+(1 row)
