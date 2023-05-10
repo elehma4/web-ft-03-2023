@@ -11,7 +11,7 @@ After completing this lesson, you will be able to:
 - Inject JavaScript data into SQL statements
 
 ## ⭐️ Pre-Reading ⭐️
-- [PG Promises](https://digitalcrafts.instructure.com/courses/189/pages/reading-pg-promise?module_item_id=23423)
+- [PG Promises](https://digitalcrafts.instructure.com/courses/252/pages/reading-pg-promise?module_item_id=23423)
 
 
 <!-- ## 🟡 Lecture Presentations
