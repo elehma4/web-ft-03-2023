@@ -14,16 +14,17 @@ After completing this lesson, you will be able to:
 - [PG Promises](https://digitalcrafts.instructure.com/courses/252/pages/reading-pg-promise?module_item_id=23423)
 
 
-<!-- ## 🟡 Lecture Presentations
-- [pg-promise](https://dc-houston.herokuapp.com/p2/Postgres/PGPromise.html#1)  -->
-<!-- [Promises](https://dc-houston.herokuapp.com/p2/Postgres/Promises.html#1) -->
+## 🟡 Lecture Presentations
+- [pg-promise](https://dc-web2.onrender.com/p2/Postgres/PGPromise.html#1) 
+<!-- [Promises](https://dc-web2.onrender.com/p2/Postgres/Promises.html#1) -->
 
 ## 🟣Labs 
 
-<!-- - [restaurant](https://github.com/veros-labs/lab-postgres-restaurant)
-- [todo list](https://github.com/veros-labs/lab-node-todo) -->
+- [restaurant](https://github.com/veros-labs/lab-postgres-restaurant)
 
-<!-- ## 🟠Homework  -->
+
+## 🟠Homework 
+- [todo list](https://github.com/veros-labs/lab-node-todo)
 
 ## 🔵Helpful Videos
 - [What is pg-promise?](https://www.udemy.com/course/nodejs-complete-guide-to-building-data-driven-applications/learn/lecture/14189637#overview)
