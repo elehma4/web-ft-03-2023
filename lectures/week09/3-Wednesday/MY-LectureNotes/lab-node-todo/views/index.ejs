@@ -55,14 +55,14 @@
                         <% todoItems.forEach(item => { %>
                         <li id="<%= item.id %>">
                             <div class="row pr-3">
-                                <div class="col-10">
+                                <div class="col-10 todo-text">
                                     <%= item.todo_item %> 
                                 </div>
 
 
                                 <div class="col-2 text-right pr-2">
 
-                                    <button class="button btn">
+                                    <button class="button btn edit-todo" data-id="<%= item.id %>">
                                         <span>
                                             <i class="fas fa-pencil-alt"></i>
                                         </span>

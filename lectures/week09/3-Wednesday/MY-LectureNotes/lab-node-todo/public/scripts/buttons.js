@@ -40,14 +40,14 @@ const updateFeedback = (todoArr) => {
     todoArr.forEach((item) => {
         htmlBlock +=`                <li id="${item.id}">
                             <div class="row pr-3">
-                                <div class="col-10">
+                                <div class="col-10 todo-text">
                                     ${item.todo_item}
                                 </div>
 
 
                                 <div class="col-2 text-right pr-2">
 
-                                    <button class="button btn">
+                                    <button class="button btn edit-todo data-id="${item.id}">
                                         <span>
                                             <i class="fas fa-pencil-alt"></i>
                                         </span>
@@ -97,3 +97,91 @@ deleteBtns.forEach((btn) => {
       });
   });
 });
+
+
+
+let editButtons = document.querySelectorAll('.edit-todo');
+
+editButtons.forEach((btn) => {
+    btn.addEventListener('click', function() {
+        
+        let id = this.getAttribute('data-id')
+
+        fetch(`/todos/${id}`, {
+            method: 'PUT'
+          })
+            .then(response => {
+              if (response.ok) {
+                // Create a new div element and give it an ID that matches the data-id attribute of the button
+                let editContainer = document.createElement('div');
+                editContainer.id = id;
+
+                let liElement = document.getElementById(id);
+
+                // Get the original todo text from the li element
+                const originalText = liElement.textContent;
+
+
+                // Replace the contents of the li element with the editContainer
+                
+                liElement.innerHTML = '';
+                liElement.appendChild(editContainer);
+
+                // Add the HTML code for the editContainer to the editContainer element
+                editContainer.innerHTML = `
+                <div id="editContainer" class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text h-100">Todo</span>
+                    </div>
+                    <textarea name="task" class="form-control" aria-label="With textarea" placeholder="Edit a todo item..."></textarea>
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-info h-100 edit-btn" type="submit" id="button-addon2">Edit</button>
+                    </div>
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-danger h-100 cancel-btn" type="button" id="button-addon2">Cancel</button>
+                    </div>
+                </div>
+            `;
+                
+                let cancelBtn = document.querySelector('.cancel-btn')
+                let editBtn = document.querySelector('.edit-btn')
+
+                cancelBtn.addEventListener('click', (e) => {
+                    console.log(e);
+                    editContainer.remove();
+                  
+                    // Restore the original todo text
+                    liElement.textContent = originalText;
+                    
+                    // Update the database with the original text
+                    fetch(`/todos/${id}`, {
+                      method: 'PUT',
+                      headers: { 'Content-Type': 'application/json' },
+                      body: JSON.stringify({ text: originalText })
+                    })
+                    .then(response => {
+                      if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                      }
+                    })
+                    .catch(error => {
+                      console.error('Error updating todo:', error);
+                    });
+                });
+                  
+
+                return response.json();
+              }
+              throw new Error('Network response was not ok.');
+            })
+            .then(data => {
+              console.log(data);
+              // update the UI
+            })
+            .catch(error => {
+              console.error('There was a problem with the fetch operation:', error);
+            });
+    })
+})
+
+
