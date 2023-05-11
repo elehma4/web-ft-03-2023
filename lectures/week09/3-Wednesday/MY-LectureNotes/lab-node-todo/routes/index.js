@@ -3,8 +3,18 @@ const router = express.Router();
 
 const db = require('../models/database');
 
-router.get("/", (req, res) => {
-  res.render("index");
+router.get("/", async (req, res) => {
+  try{
+    let todoItems = await db.query('SELECT * FROM todo_list')
+    res.render("index", { todoItems });
+  }
+  catch (error) {
+    console.log(error);
+    res.render('index', {
+      todoItems: []
+    });
+  }
+
 });
 
 //! test endpoints using thunder client before messing with frontend
@@ -46,7 +56,11 @@ router.post("/todos", async (req, res) => {
 
     let todoItems = await db.query('INSERT INTO todo_list VALUES (DEFAULT, $1)', [todo_item])
 
+    console.log('Todo item added:', todo_item);
+
     // res.json(todoItems);
+    res.redirect('/')
+
     let newTable = await db.query('SELECT * FROM todo_list');
     res.json(newTable);
   }
