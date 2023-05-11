@@ -106,82 +106,77 @@ editButtons.forEach((btn) => {
     btn.addEventListener('click', function() {
         
         let id = this.getAttribute('data-id')
+        let liElement = document.getElementById(id);
+        // Get the original todo text from the li element
+        const originalText = liElement.textContent;
 
-        fetch(`/todos/${id}`, {
-            method: 'PUT'
-          })
-            .then(response => {
-              if (response.ok) {
-                // Create a new div element and give it an ID that matches the data-id attribute of the button
-                let editContainer = document.createElement('div');
-                editContainer.id = id;
-
-                let liElement = document.getElementById(id);
-
-                // Get the original todo text from the li element
-                const originalText = liElement.textContent;
-
-
-                // Replace the contents of the li element with the editContainer
-                
-                liElement.innerHTML = '';
-                liElement.appendChild(editContainer);
-
-                // Add the HTML code for the editContainer to the editContainer element
-                editContainer.innerHTML = `
-                <div id="editContainer" class="input-group">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text h-100">Todo</span>
-                    </div>
-                    <textarea name="task" class="form-control" aria-label="With textarea" placeholder="Edit a todo item..."></textarea>
-                    <div class="input-group-append">
-                        <button class="btn btn-outline-info h-100 edit-btn" type="submit" id="button-addon2">Edit</button>
-                    </div>
-                    <div class="input-group-append">
-                        <button class="btn btn-outline-danger h-100 cancel-btn" type="button" id="button-addon2">Cancel</button>
-                    </div>
+        // Create the editContainer div and set its visibility to none
+        let editContainer = document.createElement('div');
+        editContainer.classList.add('editContainer');
+        editContainer.id = 'editContainer-' + id;
+        editContainer.innerHTML = `
+            <div class="input-group">
+                <div class="input-group-prepend">
+                <span class="input-group-text h-100">Todo</span>
                 </div>
-            `;
-                
-                let cancelBtn = document.querySelector('.cancel-btn')
-                let editBtn = document.querySelector('.edit-btn')
+                <textarea name="task" class="form-control edit-textarea" aria-label="With textarea" placeholder="Edit a todo item...">${originalText}</textarea>
+                <div class="input-group-append">
+                <button class="btn btn-outline-info h-100 edit-btn" type="submit" id="button-addon2">Edit</button>
+                </div>
+                <div class="input-group-append">
+                <button class="btn btn-outline-danger h-100 cancel-btn" type="button" id="button-addon2">Cancel</button>
+                </div>
+            </div>
+        `;
 
-                cancelBtn.addEventListener('click', (e) => {
-                    console.log(e);
-                    editContainer.remove();
-                  
-                    // Restore the original todo text
-                    liElement.textContent = originalText;
-                    
-                    // Update the database with the original text
-                    fetch(`/todos/${id}`, {
-                      method: 'PUT',
-                      headers: { 'Content-Type': 'application/json' },
-                      body: JSON.stringify({ text: originalText })
-                    })
-                    .then(response => {
-                      if (!response.ok) {
-                        throw new Error('Network response was not ok');
-                      }
-                    })
-                    .catch(error => {
-                      console.error('Error updating todo:', error);
-                    });
-                });
-                  
+        // Hide the original li element and show the editContainer
+        liElement.style.display = 'none';
+        liElement.insertAdjacentElement('afterend', editContainer);
+        // inserts the editContainer element as the next sibling of the liElement (reference element) inserting the editContainer element after the liElement in the DOM structure.
 
-                return response.json();
-              }
-              throw new Error('Network response was not ok.');
-            })
-            .then(data => {
-              console.log(data);
-              // update the UI
-            })
-            .catch(error => {
-              console.error('There was a problem with the fetch operation:', error);
-            });
-    })
-})
+        let cancelBtn = editContainer.querySelector('.cancel-btn');
+        let editBtn = editContainer.querySelector('.edit-btn');
+        let textarea = editContainer.querySelector('.edit-textarea');
+
+        cancelBtn.addEventListener('click', (e) => {
+            // Remove the editContainer and show the original li element
+            editContainer.remove();
+            liElement.style.display = 'list-item';
+        });
+
+        editBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            let newText = textarea.value.trim();//rids of white space
+
+            if (newText !== '') {
+              // Update the li element with the new text
+              liElement.textContent = newText;
+              
+              // Remove the editContainer and show the updated li element
+              editContainer.remove();
+              liElement.style.display = 'list-item';
+      
+              // Update the database with the new text
+              fetch(`/todos/${id}`, {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ todo_item: newText })
+              })
+              .then(response => {
+                if (!response.ok) {
+                  throw new Error('Network response was not ok');
+                }
+                return response.json()
+              })
+              .then(data => {
+                console.log(data);
+              })
+              .catch(error => {
+                console.error('Error updating todo:', error);
+              });
+            }
+          });
+    });
+});
 
 

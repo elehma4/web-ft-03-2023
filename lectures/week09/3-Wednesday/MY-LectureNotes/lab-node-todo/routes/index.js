@@ -78,18 +78,23 @@ router.put("/todos/:id", async (req, res) => {
     let {id} = req.params;
     let {todo_item} = req.body
 
+    console.log('ID:', id);
+    console.log('Todo Item:', todo_item);
+
     let todoItem = await db.query('UPDATE todo_list SET todo_item=$1 WHERE id=$2 RETURNING *', [todo_item, id])
+    console.log('Updated Todo Item:', todoItem);
 
     // res.json(todoItem);
     let newTable = await db.query('SELECT * FROM todo_list');
+    console.log('New Todo Table:', newTable);
+
     res.json(newTable);
   }
-  catch{
-    res.render('index', {
-        todo: []
-    })
+  catch(error) {
+    console.error('Error updating todo:', error);
+    res.status(500).json({ error: 'Internal server error' });
   }
-})
+});
 
 
 // DELETE /todos/:id, delete a todo
