@@ -17,14 +17,14 @@ After completing this lesson, you will be able to:
 - [Sequelize ORM](https://digitalcrafts.instructure.com/courses/252/pages/reading-sequelize-orm?module_item_id=23441)
 
 
-<!-- ## 🟡 Lecture Presentations
-- [Sequelize](https://dc-web2.onrender.com/p2/Postgres/Sequelize.html#1) -->
+## 🟡 Lecture Presentations
+- [Sequelize](https://dc-web2.onrender.com/p2/Postgres/Sequelize.html#1)
 
-<!-- ## 🟣Labs
+## 🟣Labs
 [sequelize setup](https://github.com/veros-labs/lab-sequelize-setup)
 
 ## 🟠Homework
-- [todo list](https://github.com/veros-labs/lab-node-todo)  -->
+- [todo list](https://github.com/veros-labs/lab-node-todo) 
 
 ## 🔵Helpful Videos
 
