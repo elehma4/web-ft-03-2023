@@ -104,7 +104,6 @@ const findBlogs = async () => {
 
 // findBlogs()
 
-
 const findUsersBlogs = async () => {
     //user hasMany blogs, so result will be an array of blogs associated with a user
     let users = await db.user.findAll({  // [{}, {}]
