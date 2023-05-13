@@ -9,14 +9,14 @@ const coinFlip = (coinArr) => {
     let val = 0
     
     for(let i = 0; i < arr.length; i++){
+        if(arr[i] == arr[i+1] && arr[i] == 1){
+            val += 1
+            arr[i+1] = 0
+        }
         if (arr[i] == arr[i+1] && arr[i] == 0){
             val += 1
             arr[i+1] = 1
 
-        }
-        if(arr[i] == arr[i+1] && arr[i] == 1){
-            val += 1
-            arr[i+1] = 0
         }
     }
 
