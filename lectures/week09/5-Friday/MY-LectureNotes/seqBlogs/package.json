@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss build ./public/css/style.css -o ./dist/output.css"
   },
   "author": "",
   "license": "ISC",
@@ -14,5 +15,8 @@
     "pg": "^8.10.0",
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.31.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
   }
 }
