@@ -46,9 +46,6 @@ router.post('/admin', async (req, res) => {
   }
 });
 
-module.exports = router;
-
-
 router.post('/admin/edit/:id', async (req, res) => {
     const { id } = req.params;
     const { content } = req.body;
@@ -73,3 +70,6 @@ router.delete('/admin/delete/:id', async (req, res) => {
         res.sendStatus(500);
     }
 });
+
+
+module.exports = router;

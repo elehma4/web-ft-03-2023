@@ -14,6 +14,7 @@ app.use(express.json());
 app.use(require('./routes/index'))
 app.use(require('./routes/admin'))
 app.use(require('./routes/details'))
+app.use(require('./routes/comments'))
 
 
 app.listen(PORT, ()=>{
