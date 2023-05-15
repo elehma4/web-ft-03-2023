@@ -5,10 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Details</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
 </head>
 <body>
+    <div class="h-screen bg-orange-100 overflow-auto flex justify-center items-center">
 
-    
+         <!-- Content -->
+         <div class="flex flex-col justify-center items-center">
+                
+            <div class="title text-2xl font-bold mb-7">
+                <%= blog.title %> 
+            </div>
+            <div class="description text-center w-1/2"><%= blog.content %> </div> 
+
+        </div>
     
 </body>
 </html>

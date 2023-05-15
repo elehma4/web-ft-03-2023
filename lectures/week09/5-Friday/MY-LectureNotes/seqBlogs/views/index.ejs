@@ -9,7 +9,7 @@
     
 </head>
 <body>
-    <div class="h-screen">
+    <div class="h-screen bg-orange-100 overflow-auto">
 
          <!-- Content -->
          <div class="flex flex-col justify-evenly items-center">
@@ -21,6 +21,11 @@
                 </div>
                 <img class="w-64 rounded-md" src="<%= category.imageURL %>" alt="">
                 <div class="description text-center"><%= category.description %> </div>
+                <% blogs.forEach(blog => { 
+                    if(category.id == blog.categoryID && blog.isPublished == true){ %>
+                        <a class="font-semibold bg-green-500 hover:bg-green-700 text-white px-4 rounded mb-4 text-center" href="/details/<%= blog.id %> "><%= blog.title %> </a>
+                    <% }
+                }) %>
                 </div>
             <% }) %>
          </div>   

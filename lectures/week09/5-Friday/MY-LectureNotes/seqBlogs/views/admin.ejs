@@ -9,7 +9,7 @@
     
 </head>
 <body>
-    <div class="h-screen">
+    <div class="h-screen bg-orange-100 overflow-auto">
 
          <!-- Content -->
          <div class="flex flex-col justify-center items-center">
@@ -44,9 +44,30 @@
                         <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Create a New Blog</button>
                       </form>
                 </div>
+
+                <div class="text-2xl font-bold mb-8 mt-8">All Blogs</div>
+                <% blogs.forEach(blog => { %>
+                    <div class="flex flex-col justify-between items-center border p-4 mb-4 blog" data-id="<%= blog.id %>">
+                        <div>
+                            <h2 class="font-bold text-xl mb-2 flex justify-center"><%= blog.title %></h2>
+                            <p class="blog-content text-center"><%= blog.content %></p>
+                        </div>
+                        <div class="flex flex-row mr-5">
+                            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2 ml-5 mb-1 mt-3 edit-button">Edit</button>
+                            <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded mr-2 ml-5 mb-1 mt-3 delete-button">Delete</button>
+                            <a href="/comments/<%= blog.id %>" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded ml-5 mb-1 mt-3">Comments</a>
+                            <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded ml-5 mb-1 mt-3 save-button" style="display: none;">Save</button>
+                            <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded ml-5 mb-1 mt-3 cancel-button" style="display: none;">Cancel</button>
+                        </div>
+                    </div>
+                <% }) %>
+                
+
          </div>   
 
     </div>
     
+    <script src="/scripts/buttons.js"></script>
+
 </body>
 </html>
