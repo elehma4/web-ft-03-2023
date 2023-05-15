@@ -19,9 +19,9 @@ After completing this lesson, you will be able to:
 <!-- ## 📍Agenda -->
 
 ## 🟡 Lecture Presentations
-<!-- - [Storing Passwords](https://dc-houston.herokuapp.com/p2/Authentication/StoringPasswords.html#1)
-- [Sessions](https://dc-houston.herokuapp.com/p2/Authentication/Sessions.html#1)
-- [Passport](https://dc-houston.herokuapp.com/p2/Authentication/Passport.html#1) -->
+- [Storing Passwords](https://dc-web2.onrender.com/p2/Authentication/StoringPasswords.html#1)
+- [Sessions](https://dc-web2.onrender.com/p2/Authentication/Sessions.html#1)
+- [Passport](https://dc-web2.onrender.com/p2/Authentication/Passport.html#1)
 
 <!-- ## 🟣Labs 
 
