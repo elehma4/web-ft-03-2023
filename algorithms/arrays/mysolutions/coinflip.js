@@ -8,7 +8,13 @@ const coinFlip = (coinArr) => {
 
     let val = 0
     
+
+    // need to adjust for arr starts with heads & starts with tails
+    // answer for both should be 2
+    // use spread operator to create 2 arrays
+    // use 2 counters
     for(let i = 0; i < arr.length; i++){
+        // arr[0] = 0
         if(arr[i] == arr[i+1] && arr[i] == 1){
             val += 1
             arr[i+1] = 0
@@ -27,3 +33,37 @@ const coinFlip = (coinArr) => {
 
 coinFlip([1,1,0,1,1]);
 coinFlip([0,0,1,0,0]);
+
+
+// Vero's Solution:
+
+const flip = (coinFace) => {
+    
+    return coinFace === 0 ? 1 : 0;
+}
+
+const getFlipCount = (arrayOfCoins, expectedFace) => {
+
+    let flipCount = 0;
+
+    for(let i = 0; i < arrayOfCoins.length; i++){
+
+        if(arrayOfCoins[i] !== expectedFace){
+            flipCount += 1;
+        }
+
+        expectedFace = flip(expectedFace)
+
+    }
+
+    return flipCount;
+    
+}
+
+const minFlipCount = (arrOfCoins) => {
+
+    return Math.min(getFlipCount(arrOfCoins, 0), getFlipCount(arrOfCoins, 1))
+    
+}
+
+console.log(minFlipCount([1,1,0,1,1]));
