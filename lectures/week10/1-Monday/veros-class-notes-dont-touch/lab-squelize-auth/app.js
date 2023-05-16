@@ -8,6 +8,7 @@ require('./auth/passport-config')(passport)
 const cookieSession = require('cookie-session');
 const port = 3000;
 
+
 app.use(express.static('public'));
 app.use(helmet())
 app.set('view engine', 'ejs');
