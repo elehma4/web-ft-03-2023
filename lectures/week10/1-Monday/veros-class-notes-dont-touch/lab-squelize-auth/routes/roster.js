@@ -7,6 +7,8 @@ router.get('/roster', auth, (req,res) => {
    
     console.log(req.user.dataValues.email);
     res.render('roster')
+
+    JSON.stringify()
 })
 
 

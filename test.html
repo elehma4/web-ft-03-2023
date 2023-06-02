@@ -8,8 +8,18 @@
 </head>
 <body>
     
-   ejs
-         
-    Sequelize Home Page
+    <script>
+
+let test2 = async()=>{
+
+    let results = await fetch('http://localhost:8000/users/')
+        let data = await results.json()
+        console.log(data)
+}
+
+test2()
+
+    
+    </script>
 </body>
 </html>
