@@ -1,0 +1,17 @@
+
+body {
+    margin: 0px; 
+    background-color: teal;
+}
+
+div{
+    color: wheat;
+}
+
+
+.paragraph{
+
+    font-size: 30px;
+    color: tomato;
+    font-weight: bold;
+}
