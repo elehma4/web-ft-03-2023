@@ -11,22 +11,22 @@ function News() {
     const [arr, setArr] = useState([])
 
     useEffect(() => {
-        
-        const newsData = async () => {
-            
-            let response = await fetch('https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=0cf790498275413a9247f8b94b3843fd');
-            let data = await response.json()
-
-            console.log(data);
-
-            setArticles(data.articles)
-
-            setArr(data.articles)
-        }
 
         newsData()
 
     }, [])
+
+    const newsData = async () => {
+            
+        let response = await fetch('https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=0cf790498275413a9247f8b94b3843fd');
+        let data = await response.json()
+
+        console.log(data);
+
+        setArticles(data.articles)
+
+        setArr(data.articles)
+    }
 
     const handleChange = (e) => {
         setFilteredText(e.target.value)
