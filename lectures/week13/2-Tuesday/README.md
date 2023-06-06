@@ -1,4 +1,4 @@
-# Week 13 - Monday
+# Week 13 - Tuesday
 
 ## React 102 - Stateful Components
 
@@ -11,7 +11,7 @@ After completing this lesson, you will be able to:
 - Pass state down from a parent component to a child component via props 
 
 ## ⭐️ Pre-Reading ⭐️
-- [Building Stateful Components](https://digitalcrafts.instructure.com/courses/252/pages/reading-building-stateful-components?module_item_id=23514)
+- [Building Stateful Components](https://digitalcrafts.instructure.com/courses/189/pages/reading-building-stateful-components?module_item_id=23514)
 - [State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)
 - [Handling Events in React](https://digitalcrafts.instructure.com/courses/189/pages/reading-handling-events-in-react?module_item_id=23515)
 - [Thinking In React](https://reactjs.org/docs/thinking-in-react.html)
@@ -19,18 +19,20 @@ After completing this lesson, you will be able to:
 
 ## 🟡 Lecture Presentations
 - [React 102](https://dc-web2.onrender.com/p2/React/React102.html#1)
-<!-- - [Styling React Components](https://dc-web2.onrender.com/p2/React/ReactStyling.html#1)
-- [Event Handling](https://dc-web2.onrender.com/p2/React/EventHandling.html#1) -->
+- [Styling React Components](https://dc-web2.onrender.comm/p2/React/ReactStyling.html#1)
+- [Event Handling](https://dc-web2.onrender.com/p2/React/EventHandling.html#1)
 
 
 ## 🟣Labs
 
 - [react-patterns](https://github.com/veros-labs/lab-react-patterns)
 - [react-state-drills](https://github.com/veros-labs/lab-react-state-drills)
-- [api drills](https://github.com/veros-labs/lab-react-api-drills) 
+
+- [stop watch](https://github.com/veros-labs/lab-react-stopwatch.git)
 
 ## 🟠Homework 
 
+- [api drills](https://github.com/veros-labs/lab-react-api-drills) 
 - [batman](https://github.com/veros-labs/hw-react-batman-hooks)
 
 ## 🔵Helpful Videos
