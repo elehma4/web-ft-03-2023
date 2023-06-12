@@ -19,15 +19,15 @@ After completing this lesson, you will be able to:
 
 ## 📍Agenda
 
-<!-- ## 🟡 Lecture Presentations
-- [React and Redux](https://dc-web2.onrender.com/p2/Redux/Redux101.html#1) -->
+## 🟡 Lecture Presentations
+- [React and Redux](https://dc-web2.onrender.com/p2/Redux/Redux101.html#1)
 
-<!-- ## 🟣Labs
+## 🟣Labs
 
-[redux 101 lab](https://github.com/veros-labs/lab-redux101) -->
+[redux 101 lab](https://github.com/veros-labs/lab-redux101)
 
-<!-- ## 🟠Homework 
-[redux 101 hw](https://github.com/veros-labs/hw-redux-101) -->
+## 🟠Homework 
+[redux 101 hw](https://github.com/veros-labs/hw-redux-101)
 
 ## 🔵Helpful Videos
 - [Introduction to Redux](https://www.youtube.com/watch?v=X2YOF5bdZlo)
