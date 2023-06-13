@@ -13,7 +13,7 @@ After completing this lesson, you will be able to:
 ## 📍Agenda
 
 ## 🟡 Lecture Presentations
-- [Advanced Reducers](https://dc-houston.herokuapp.com/p2/Redux/AdvancedReducers.html#1)
+- [Advanced Reducers](https://dc-web2.onrender.com/p2/Redux/AdvancedReducers.html#1)
 
 ## 🟣Labs 
 - [Combine Reducers](https://github.com/veros-labs/lab-redux-combine-reducers.git)
