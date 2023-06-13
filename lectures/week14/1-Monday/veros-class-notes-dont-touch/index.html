@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.0.5/redux.min.js"></script>
+
+   
+
+    <script>
+
+        // action creator
+        const addContact = (id, firstName, city) => { 
+
+
+            return {  //action
+
+                type: "ADD_CONTACT", 
+                data: {
+                    id, 
+                    firstName, 
+                    city
+                }
+            }
+         }
+
+         //action creator
+        const removeContact = (id) => { 
+            
+            return {
+
+                type: "REMOVE_CONTACT",
+                id
+            }
+         }
+
+
+        const incrementCount = () => { // -4
+            
+            return {
+                type: "COUNT"
+            }
+        }
+
+
+
+         ///reducer is a function 
+         //purpose is to update or define the global state 
+
+         const reducer = (state= {contacts: [], count: 0}, action) => { 
+
+            
+            // if(state === undefined){  //defines our intial global state if the global state is undefined
+            //     state = {
+
+            //         contacts: [], 
+            //         count: 0
+            //     }
+            // }
+
+// action = {type, datat}
+            switch(action.type){
+
+                case "ADD_CONTACT" : 
+                 return {
+                     ...state, 
+                    contacts: state.contacts.concat(action.data), 
+                    count: state.count + 1
+                 }
+
+
+                 case "REMOVE_CONTACT": 
+                    return {
+                        ...state, 
+                        contacts : state.contacts.filter( contact =>{
+                            return contact.id !== action.id
+                        }), 
+                        count: state.count -1
+                    }
+
+                case "COUNT": 
+                    return {
+                        ...state, 
+                        count: state.count + 1
+                    }
+
+                 default: 
+                    return state;
+            }
+             
+          }
+
+
+        const store = Redux.createStore(reducer) //have to pass in a reducer here  {}
+
+        const showState = () => { 
+            
+            console.log(store.getState())
+        }
+
+        store.subscribe(showState)
+
+        store.dispatch(addContact(1, "Kelly", "Cypress"))
+        store.dispatch(addContact(2, "Katie", "Atlanta"))
+        store.dispatch(addContact(3, "Jordan", "Nashville"))
+        store.dispatch(addContact(4, "Hunter", "Tuscaloosa"))
+        store.dispatch(addContact(5, "Ethan", "Bonita Springs"))
+        store.dispatch(addContact(6, "Veronica", "Houston"))
+
+        store.dispatch(removeContact(6))
+
+
+
+    </script>
+</body>
+</html>
