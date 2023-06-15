@@ -1,4 +1,4 @@
-# Week 14 - Tuesday
+# Week 14 - Wednesday
 
 ## Advanced Reducers
 
@@ -12,15 +12,16 @@ After completing this lesson, you will be able to:
 
 ## 📍Agenda
 
-## 🟡 Lecture Presentations
-- [Advanced Reducers](https://dc-web2.onrender.com/p2/Redux/AdvancedReducers.html#1)
+<!-- ## 🟡 Lecture Presentations
+- [Advanced Reducers](https://dc-houston.herokuapp.com/p2/Redux/AdvancedReducers.html#1) -->
 
-## 🟣Labs 
-- [Combine Reducers](https://github.com/veros-labs/lab-redux-combine-reducers.git)
+<!-- ## 🟣Labs 
+- [Combine Reducers](https://github.com/veros-labs/lab-redux-combine-reducers.git) -->
+
+## 🟠Homework 
+- [Shopping Cart with Redux](https://github.com/veros-labs/hw-redux-shopping-cart.git)
 
 
-<!-- ## 🟠Homework 
-- [Shopping Cart with Redux](https://github.com/veros-labs/hw-redux-shopping-cart.git) -->
 ## 🔵Helpful Videos
 
 
