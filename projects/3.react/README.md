@@ -18,7 +18,7 @@ Your task is to create a React Application that meets the following requirements
   - Tailwind CSS
   - Your own CSS
 - Have an API call
-- Store information from your API call into global state (Redux or Context API)
+- Store information from your API call into global state (Redux )
 
 ## Choose Your Own Adventure
 
