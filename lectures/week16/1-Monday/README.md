@@ -6,7 +6,7 @@
 
 
 ## 🟡 Lecture Presentations
-- [JWT Server Side](http://dc-houston.herokuapp.com/p2/Authentication/JWT-Server.html#1)
+- [JWT Server Side](https://dc-web2.onrender.com/p2/Authentication/JWT-Server.html#1)
 
 ## 🟣Labs
 - [JWT - Server](https://github.com/veros-labs/jwt-server-starter) 
