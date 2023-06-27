@@ -1,8 +1,53 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import { Link } from 'react-router-dom'
+import {useDispatch, useSelector} from 'react-redux'
+import {signIn, checkToken} from './authSlice'
+import { useNavigate } from 'react-router-dom'
+
 
 
 const Signin = () => {
+
+  const [email, setEmail] = useState("")
+  const [password, setPassword] = useState("")
+
+  const isLoading = useSelector(state => state.isLoading)
+  const token = useSelector(state => state.token) 
+
+  const navigate = useNavigate(); 
+  const dispatch = useDispatch();
+
+
+  useEffect(() => {
+    
+    if(localStorage.token){
+      dispatch(checkToken())
+    }
+  
+  }, [])
+
+
+  useEffect(() => {
+    
+    if(!isLoading && token ){
+      navigate('/feature')
+    }
+  }, [token])
+  
+
+  const handleSubmit = (e) => {
+    
+    e.preventDefault() 
+
+    let dataObj = {
+      formData: {
+        email, password
+      }
+    }
+
+    dispatch(signIn(dataObj))
+  }
+
   return( 
   <div className="mt-5">
   
@@ -15,14 +60,18 @@ const Signin = () => {
 
         <h2>Sign In</h2>
 
-        <form action="" method="post" className="form">
+        <form onSubmit={handleSubmit} className="form">
 
             <div className="form__field">
-              <input type="email" placeholder="info@mailaddress.com" />
+              <input type="email" 
+              onChange={e=>setEmail(e.target.value)}
+              placeholder="info@mailaddress.com" />
             </div>
 
             <div className="form__field">
-              <input type="password" placeholder="••••••••••••" />
+              <input type="password" 
+              onChange={e=>setPassword(e.target.value)}
+              placeholder="••••••••••••" />
             </div>
 
             <div className="form__field">

@@ -11,6 +11,9 @@ const initialState = {
 }
 
 const SIGN_UP = "SIGN_UP" //action types
+const SIGN_IN = "SIGN_IN" //action types
+const CHECK_TOKEN = "CHECK_TOKEN" //action types
+
 
 // pending, fullfilled, rejected
 
@@ -29,6 +32,34 @@ export const signUp = createAsyncThunk(SIGN_UP, async (params, thunkAPI)=>{
 
     return jwt
 
+})
+
+export const signIn = createAsyncThunk(SIGN_IN, async (params, thunkAPI)=>{
+
+
+    let response = await axios.post('/login', params.formData)
+
+    let token = response.data.token 
+
+    return token
+})
+
+export const checkToken = createAsyncThunk(CHECK_TOKEN, async (params, thunkAPI)=>{
+
+
+    if(localStorage.token){
+        // api call to check if token is valid
+
+        let response = await axios.get('/protected', {
+            headers: {
+                'authorization': localStorage.token
+            }
+        })
+
+        return response.data  //{isValid: true}
+    }
+
+    return {isValid: false}
 })
 
 
@@ -60,6 +91,51 @@ let authSlice = createSlice({
             localStorage.setItem('token', payload)
         },
         [signUp.rejected] : (state, action)=>{
+
+            state.isLoading = false; 
+            state.error = "Couldn't fetch data"
+        },
+
+
+
+        [signIn.pending] : (state, action)=>{
+
+            state.isLoading = true;
+
+        },
+        [signIn.fulfilled] : (state, {payload})=>{  //action.payload
+
+            state.isLoading = false
+
+            state.token = payload
+
+            localStorage.setItem('token', payload)
+        },
+        [signIn.rejected] : (state, action)=>{
+
+            state.isLoading = false; 
+            state.error = "Couldn't fetch data"
+        },
+
+
+
+        [checkToken.pending] : (state, action)=>{
+
+            state.isLoading = true;
+
+        },
+        [checkToken.fulfilled] : (state, {payload})=>{  //action.payload {action.payload.isValid}
+
+            state.isLoading = false
+
+            if(payload.isValid){
+                state.token = localStorage.token
+                // state.error = "Credentials not valid"
+            }
+
+            
+        },
+        [checkToken.rejected] : (state, action)=>{
 
             state.isLoading = false; 
             state.error = "Couldn't fetch data"
