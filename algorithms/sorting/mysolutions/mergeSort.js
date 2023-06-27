@@ -8,7 +8,7 @@
 let arr1 = [3, 7, 9, 11]
 //          |
 let arr2 = [1, 3, 6, 9, 13, 14]
-//          |
+//             |
 let arrSolution = [];
 
 for(let i = 0; i <  arr1.length; i++){
